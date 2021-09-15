@@ -6,12 +6,13 @@ import {
 import { makeStyles } from '@material-ui/styles';
 import Typed from 'react-typed';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import MailOutlineIcon from '@material-ui/icons/MailOutline';
-import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStackOverflow } from '@fortawesome/free-solid-svg-icons';
 import { EmailOutlined } from '@material-ui/icons';
 import resume from '../assets/CodingResume2.pdf';
 import FileCopyIcon from '@material-ui/icons/FileCopy';
+
 //import {useForm, Form} from '..components/useForm';
 
 
