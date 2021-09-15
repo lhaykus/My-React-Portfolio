@@ -29,6 +29,13 @@ const useStyles = makeStyles(theme => ({
         fontWeight: 'bold',
         fontSize: '150%',
         textAlign: 'center'
+    },
+    footer: {
+        textAlign: 'center',
+        textDecoration: 'none',
+        color:'#1CC1E7',
+        marginTop: '20px',
+        fontSize: '120%'
     }
 }));
 
@@ -118,7 +125,13 @@ const ContactMe = () => {
                                 </Link>
                                 </Container>
             </Container>
+            <footer className={classes.footer}>
+            <div>@
+            <Link className={classes.footer} href='https://github.com/lhaykus' target='_blank'>DragonWhisperer</Link>
+            </div>
+        </footer>
         </section>
+        
     )
 }
 

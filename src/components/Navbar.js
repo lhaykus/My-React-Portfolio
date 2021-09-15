@@ -37,34 +37,34 @@ const Navbar = () => {
                     </KeyboardArrowLeftIcon>
                 </IconButton>
             <ListItemText inset>
-                    <Typography color='inherit' variant='title'>
+                    <Typography color='white' variant='title'>
                         Loryn Haykus
                     </Typography>
                 </ListItemText>
                 <ListItemText inset>
-                <Typography color='theme' variant='title'>
-                        <Link href='#aboutme' color='white'>
+                <Typography color='white' variant='title'>
+                        <Link href='#aboutme' style={{color:'#15BDD6'}}>
                         About Me
                         </Link>
                     </Typography>
                 </ListItemText>
                 <ListItemText inset>
-                <Typography color='#BD1CE7' variant='title'>
-                        <Link href='#projects' color='#BD1CE7'>
+                <Typography style={{color:'#15BDD6'}} variant='title'>
+                        <Link href='#projects' style={{color:'#15BDD6'}}>
                         Projects
                         </Link>
                     </Typography>
                 </ListItemText>
                 <ListItemText inset>
-                <Typography color='inherit' variant='title'>
-                        <Link href='#skills' color='white'>
+                <Typography style={{color:'#15BDD6'}} variant='title'>
+                        <Link href='#skills' style={{color:'#15BDD6'}}>
                         Skills
                         </Link>
                     </Typography>
                 </ListItemText>
                 <ListItemText inset>
-                <Typography color='inherit' variant='title'>
-                        <Link href='#contactme' color='white'>
+                <Typography style={{color:'#15BDD6'}} variant='title'>
+                        <Link href='#contactme' style={{color:'#15BDD6'}}>
                        Contact Me!
                         </Link>
                     </Typography>

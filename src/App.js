@@ -21,23 +21,23 @@ function App() {
       <CssBaseline />
       <Navbar />
       <Header />
-      <Parallax bgImage={lines} strength={200} bgImageStyle={{height:'800px', width:'2050px'}}>
+      <Parallax bgImage={lines} strength={600} bgImageStyle={{height:'800px', width:'2050px'}}>
         <div style={{height: 500}}>
         </div>
       </Parallax>
       <AboutMe />
       <Parallax bgImage={lines} strength={500} bgImageStyle={{height:'750px', width:'2050px'}}>
-        <div style={{height: 600}}>
+        <div style={{height: 500}}>
         </div>
       </Parallax>
       <Projects />
       <Parallax bgImage={lines} strength={500} bgImageStyle={{height:'750px', width:'2050px'}}>
-        <div style={{height: 600}}>
+        <div style={{height: 500}}>
         </div>
       </Parallax>
       <Skills />
       <Parallax bgImage={lines} strength={500} bgImageStyle={{height:'750px', width:'2050px'}}>
-        <div style={{height: 600}}>
+        <div style={{height: 500}}>
         </div>
       </Parallax>
       <ContactMe />
