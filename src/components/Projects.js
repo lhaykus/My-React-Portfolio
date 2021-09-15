@@ -69,8 +69,8 @@ const Projects = () => {
                                             |sequelize| |handlebars| |Node.js|</Typography>
                                     </CardContent>
                                     <CardActions>
-                                        <Button size='small' color="#DD1FD1">Github</Button>
-                                        <Button size='small' color='red'>Deployed App</Button>
+                                        <Button href='https://github.com/lhaykus/4thKind' target="_blank" size='small' color="#DD1FD1">Github</Button>
+                                        <Button href='https://the-4th-kind.herokuapp.com/' target='_blank' size='small' color='red'>Deployed App</Button>
                                     </CardActions>
                                 </CardActionArea>
                             </Card>
@@ -90,8 +90,8 @@ const Projects = () => {
                                             |Javascript| |API Calls| |Moment.js| |Bootstrap|</Typography>
                                     </CardContent>
                                     <CardActions>
-                                        <Button size='small' color="#DD1FD1">Github</Button>
-                                        <Button size='small' color='red'>Deployed App</Button>
+                                        <Button href='https://github.com/lhaykus/Weather-Dashboard' target="_blank" size='small' color="#DD1FD1">Github</Button>
+                                        <Button href='https://lhaykus.github.io/Weather-Dashboard/' target="_blank" size='small' color='red'>Deployed App</Button>
                                     </CardActions>
                                 </CardActionArea>
                             </Card >
@@ -112,8 +112,8 @@ const Projects = () => {
                                             |Mongoose| |Javascript ES6| |Node.js| |Express|</Typography>
                                     </CardContent>
                                     <CardActions>
-                                        <Button size='small' color="#DD1FD1">Github</Button>
-                                        <Button size='small' color='red'>Deployed App</Button>
+                                        <Button href='https://github.com/lhaykus/get-physical' target="_blank" size='small' color="#DD1FD1">Github</Button>
+                                        <Button href='https://get-physical-fitness-tracker.herokuapp.com/?id=6130192ac065490016542980' target="_blank" size='small' color='red'>Deployed App</Button>
                                     </CardActions>
                                 </CardActionArea>
                             </Card>
@@ -133,8 +133,8 @@ const Projects = () => {
                                             |HTML| |CSS| |Javascript|</Typography>
                                     </CardContent>
                                     <CardActions>
-                                        <Button size='small' color="#DD1FD1">Github</Button>
-                                        <Button size='small' color='red'>Deployed App</Button>
+                                        <Button href='https://github.com/lhaykus/video-game-quiz' target="_blank" size='small' color="#DD1FD1">Github</Button>
+                                        <Button href='https://lhaykus.github.io/video-game-quiz/' target="_blank" size='small' color='red'>Deployed App</Button>
                                     </CardActions>
                                 </CardActionArea>
                             </Card>
