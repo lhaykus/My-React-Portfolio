@@ -1,6 +1,7 @@
 import React from 'react';
 import { ListItem, ListItemText, ListItemIcon, List, Typography, Container, Grid } from '@material-ui/core';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
+import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import { makeStyles } from '@material-ui/styles';
 import Typed from 'react-typed';
 
@@ -22,14 +23,15 @@ const useStyles = makeStyles(theme => ({
     listText: {
         color: 'white',
         fontSize: '500%',
-        padding: '5px'
+        padding: '5px',
     },
     listItem: {
         padding: '10px',
         margin: '10px'
     },
     listContainer: {
-        fontSize: '250%'
+        fontSize: '250%',
+        alignContent: 'center'
     }
 
 }));
@@ -48,7 +50,6 @@ const Skills = () => {
                 <Typography variant='h2' align='center' className={classes.skillTitle}>
                     <Typed strings={["Technical Skills"]} typeSpeed={80} />
                     <br /><br />
-                   
                 </Typography>
                 <Grid item xs={12} md={6}>
                     <div>
@@ -59,36 +60,49 @@ const Skills = () => {
                                 </ListItemIcon>
                                 <ListItemText className={classes.listText}>HTML</ListItemText>
                                 <ListItemIcon>
+                                    <ArrowForwardIosIcon style={{ color: '#25EDE8' }}></ArrowForwardIosIcon>
+                                </ListItemIcon>
+                                <ListItemIcon>
                                     <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
                                 </ListItemIcon>
                                 <ListItemText className={classes.listText}>CSS</ListItemText>
+                                <ListItemIcon>
+                                    <ArrowForwardIosIcon style={{ color: '#25EDE8' }}></ArrowForwardIosIcon>
+                                </ListItemIcon>
                                 <ListItemIcon>
                                     <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
                                 </ListItemIcon>
                                 <ListItemText className={classes.listText}>Javascript</ListItemText>
                                 <ListItemIcon>
-                                    <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
+                                    <ArrowForwardIosIcon style={{ color: '#25EDE8' }}></ArrowForwardIosIcon>
                                 </ListItemIcon>
-                                <ListItemText className={classes.listText}>VSCode</ListItemText>
                             </ListItem>
+
                             <ListItem className={classes.listItem}>
                                 <ListItemIcon>
                                     <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
                                 </ListItemIcon>
                                 <ListItemText className={classes.listText}>jQuery</ListItemText>
+                                <ListItemIcon>
+                                    <ArrowForwardIosIcon style={{ color: '#25EDE8' }}></ArrowForwardIosIcon>
+                                </ListItemIcon>
+                                
 
                                 <ListItemIcon>
                                     <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
                                 </ListItemIcon>
                                 <ListItemText className={classes.listText}>Node.js</ListItemText>
                                 <ListItemIcon>
+                                    <ArrowForwardIosIcon style={{ color: '#25EDE8' }}></ArrowForwardIosIcon>
+                                </ListItemIcon>
+                                <ListItemIcon>
                                     <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
                                 </ListItemIcon>
                                 <ListItemText className={classes.listText}>Express.js</ListItemText>
                                 <ListItemIcon>
-                                    <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
+                                    <ArrowForwardIosIcon style={{ color: '#25EDE8' }}></ArrowForwardIosIcon>
                                 </ListItemIcon>
-                                <ListItemText className={classes.listText}>Insomnia</ListItemText>
+                                
                             </ListItem>
                             <ListItem className={classes.listItem}>
                                 <ListItemIcon>
@@ -96,28 +110,71 @@ const Skills = () => {
                                 </ListItemIcon>
                                 <ListItemText className={classes.listText}>mySQL</ListItemText>
                                 <ListItemIcon>
+                                    <ArrowForwardIosIcon style={{ color: '#25EDE8' }}></ArrowForwardIosIcon>
+                                </ListItemIcon>
+                                <ListItemIcon>
                                     <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
                                 </ListItemIcon>
                                 <ListItemText className={classes.listText}>Sequelize</ListItemText>
+                                <ListItemIcon>
+                                    <ArrowForwardIosIcon style={{ color: '#25EDE8' }}></ArrowForwardIosIcon>
+                                </ListItemIcon>
                                 <ListItemIcon>
                                     <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
                                 </ListItemIcon>
                                 <ListItemText className={classes.listText}>MongoDB</ListItemText>
                                 <ListItemIcon>
-                                    <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
+                                    <ArrowForwardIosIcon style={{ color: '#25EDE8' }}></ArrowForwardIosIcon>
                                 </ListItemIcon>
-                                <ListItemText className={classes.listText}>Mongoose</ListItemText>
+                               
                             </ListItem>
                             <ListItem className={classes.listItem}>
                                 <ListItemIcon>
                                     <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
                                 </ListItemIcon>
-                                <ListItemText className={classes.listText}>React</ListItemText>
+                                <ListItemText className={classes.listText}>noSql</ListItemText>
+                                <ListItemIcon>
+                                    <ArrowForwardIosIcon style={{ color: '#25EDE8' }}></ArrowForwardIosIcon>
+                                </ListItemIcon>
                                 <ListItemIcon>
                                     <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
                                 </ListItemIcon>
-                                <ListItemText className={classes.listText}>noSQL</ListItemText>
+                                <ListItemText className={classes.listText}>Mongoose</ListItemText>
+                                <ListItemIcon>
+                                    <ArrowForwardIosIcon style={{ color: '#25EDE8' }}></ArrowForwardIosIcon>
+                                </ListItemIcon>
+                                <ListItemIcon>
+                                    <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
+                                </ListItemIcon>
+                                <ListItemText className={classes.listText}>React</ListItemText>
+                                <ListItemIcon>
+                                    <ArrowForwardIosIcon style={{ color: '#25EDE8' }}></ArrowForwardIosIcon>
+                                </ListItemIcon>
                             </ListItem>
+                            <ListItem className={classes.listItem}>
+                                <ListItemIcon>
+                                    <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
+                                </ListItemIcon>
+                                <ListItemText className={classes.listText}>VSCode</ListItemText>
+                                <ListItemIcon>
+                                    <ArrowForwardIosIcon style={{ color: '#25EDE8' }}></ArrowForwardIosIcon>
+                                </ListItemIcon>
+                                <ListItemIcon>
+                                    <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
+                                </ListItemIcon>
+                                <ListItemText className={classes.listText}>Github</ListItemText>
+                                <ListItemIcon>
+                                    <ArrowForwardIosIcon style={{ color: '#25EDE8' }}></ArrowForwardIosIcon>
+                                </ListItemIcon>
+                                <ListItemIcon>
+                                    <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
+                                </ListItemIcon>
+                                <ListItemText className={classes.listText}>Insomnia</ListItemText>
+                                <ListItemIcon>
+                                    <ArrowForwardIosIcon style={{ color: '#25EDE8' }}></ArrowForwardIosIcon>
+                                </ListItemIcon>
+                            </ListItem>
+                            
                         </List>
                         <br/>
                         <Typography className={classes.subtitle} variant='h3'>
@@ -135,6 +192,5 @@ const Skills = () => {
 };
 
 export default Skills;
-
 
 
