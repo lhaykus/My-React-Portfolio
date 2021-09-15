@@ -1,6 +1,6 @@
 {
-  "name": "react-portfolio",
   "homepage": "https://lhaykus.github.io/My-React_Portfolio",
+  "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
