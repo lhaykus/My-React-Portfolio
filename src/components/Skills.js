@@ -67,7 +67,7 @@ const Skills = () => {
                     <br /><br />
                     <Typography className={classes.subtitle} variant='h3'>
                 <Typed strings={["HTML", "CSS", "Javascript", "Node.js", "Express.js", "mySQL", "React", "noSQL", "MongoDB"]}
-                    typeSpeed={40}
+                    typeSpeed={80}
                     backSpeed={60}
                     loop />
             </Typography>

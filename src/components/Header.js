@@ -64,11 +64,11 @@ const Header = () => {
              <Parallax className={classes.parallax} bgImage={scifi} strength={200} bgImageStyle={{height:'1000px', width:'2050px'}} >
         <div> 
             <Typography className={classes.title} variant='h2'>
-                <Typed strings={["Loryn Haykus Software Developer" ]} typeSpeed={40} />
+                <Typed strings={["Loryn Haykus Software Developer" ]} typeSpeed={80} />
             </Typography>
             <Typography className={classes.subtitle} variant='h3'>
                 <Typed strings={["Coder", "Nerd", "Gamer", "Passionate", 'Determined']}
-                    typeSpeed={40}
+                    typeSpeed={80}
                     backSpeed={60}
                     loop />
             </Typography>
