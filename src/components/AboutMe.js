@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from '@material-ui/core';
 import {
     AppBar, Toolbar, ListItem, ListItemText, IconButton,
     Avatar, Divider, List, Typography, Box, Container, Grid
@@ -6,6 +7,11 @@ import {
 import { makeStyles } from '@material-ui/styles';
 import Typed from 'react-typed';
 import avatar from '../assets/avatar.jpg';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
+import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import { EmailOutlined } from '@material-ui/icons';
 
 //styling for the about me section
 const useStyles = makeStyles(theme => ({
@@ -26,9 +32,12 @@ const useStyles = makeStyles(theme => ({
         margin: '0.5rem auto',
         width: '30rem',
         height: '30rem',
-       
 
-
+    },
+    link: {
+        alignItems: 'center',
+        padding: '5px',
+        fontSize: 'large'
 
     }
 }));
@@ -64,7 +73,20 @@ const AboutMe = () => {
                                 quite exciting for me. Other than coding and video games,
                                 I have a huge love for cars and racing, as well as nature
                                 and animals. This portfolio is the just the beginning of my journey and I am excited to add projects over the years!</Typography>
-                                <br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/>
+                                <br /> <br />
+                                <Container align='center' fontSize='large'  margin = '5px'>
+                                <Link href='https://github.com/lhaykus' className= {classes.link} target="_blank" fontSize='large'>
+                                    <GitHubIcon style={{color: '#1CC1E7', fontSize:'800%', padding:'20px'}} />
+                                </Link>
+                                <Link href='https://www.linkedin.com/in/loryn-haykus/' className= {classes.link} target="_blank">
+                                    <LinkedInIcon style={{color: '#801BEB', fontSize: '800%', padding:'20px'}} />
+                                </Link>
+                                <Link href='https://github.com/lhaykus' className= {classes.link} target="_blank">
+                                    <EmailOutlined style={{color: "#D714EA", fontSize:'800%', padding:'20px'}} />
+                                </Link>
+                                </Container>
+
+                        <br /> <br /> <br /> <br />
                         </Grid>
 
 
