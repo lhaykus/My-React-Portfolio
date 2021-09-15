@@ -4,6 +4,8 @@ import { Typography, Avatar, Grid, Box } from '@material-ui/core';
 import Typed from 'react-typed';
 import avatar from '../assets/avatar.jpg';
 import hero from '../assets/heroimage.jpg';
+import { Parallax } from 'react-parallax';
+import scifi from '../assets/scfi.jpg';
 
 
 //CSS styling
@@ -15,27 +17,39 @@ const useStyles = makeStyles(theme => ({
 
     subtitle: {
         color: '#DD1FD1',
-        marginTop: '10rem',
+        
         fontWeight: 'bold',
-        textAlign: 'center'
+        textAlign: 'right',
+        
     },
 
-    hero: {
-        backgroundImage: `url('https://img5.goodfon.com/wallpaper/nbig/7/1d/tansie-stephens-by-tansie-stephens-systemic-recharge.jpg') `,
+   // hero: {
+     //   backgroundImage: `url('https://img5.goodfon.com/wallpaper/nbig/7/1d/tansie-stephens-by-tansie-stephens-systemic-recharge.jpg') `,
+      //  height: '1000px',
+      //  backgroundPosition: 'center',
+      //  backgroundRepeat: 'no-repeat',
+      //  backgroundSize: 'cover',
+      //  position: 'relative',
+      //  display: 'flex',
+      //  justifyContent: 'center',
+      //  alignItems: 'center',
+       
+  //  },
+    typedContainer: {
+        zIndex: 1,
+        textAlign: 'center',
+        
+       
+
+    }, 
+    parallax: {
         height: '1000px',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
-        position: 'relative',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-       
-    },
-    typedContainer: {
-        zIndex: 1,
-        textAlign: 'center',
-       
 
     }
 }));
@@ -45,18 +59,27 @@ const Header = () => {
     return (
         
         <Box className={classes.typedContainer}>
-            <Grid className={classes.hero} src={hero}> 
+            <Grid>
+                
+             <Parallax className={classes.parallax} bgImage={scifi} strength={200} bgImageStyle={{height:'1000px', width:'2050px'}} >
+        <div> 
             <Typography className={classes.title} variant='h2'>
                 <Typed strings={["Loryn Haykus Software Developer" ]} typeSpeed={40} />
             </Typography>
-            <br/> <br/><br/> <br/><br/> <br/>
             <Typography className={classes.subtitle} variant='h3'>
-                <Typed strings={["HTML", "CSS", "Javascript", "Node.js", "Express.js", "mySQL", "React", "noSQL", "MongoDB"]}
+                <Typed strings={["Coder", "Nerd", "Gamer", "Passionate", 'Determined']}
                     typeSpeed={40}
                     backSpeed={60}
                     loop />
             </Typography>
+        </div>
+        
+            
+            
+            
+            </Parallax>
             </Grid>
+       
            
         </Box>
       

@@ -10,8 +10,8 @@ import quiz from '../assets/quiz.png';
 
 
 const useStyles = makeStyles(theme => ({
-    aboutTitle: {
-        color: "#29C5C2",
+    projectTitle: {
+        color: "#E4188A",
         fontWeight: 'bold',
         padding: '5px'
     },

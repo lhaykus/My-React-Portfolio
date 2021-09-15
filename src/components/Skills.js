@@ -17,8 +17,15 @@ const useStyles = makeStyles(theme => ({
 
     title: {
         color: 'white',
-    }
-    ,
+    },
+    subtitle:{
+        color: '#18E49C',
+        marginBottom: '6px',
+        fontWeight: 'bold',
+        textAlign: 'center',
+      
+
+    },
     listText: {
         color: 'white',
         fontSize: '500%',
@@ -58,6 +65,12 @@ const Skills = () => {
                 <Typography variant='h2' align='center' className={classes.skillTitle}>
                     <Typed strings={["Technical Skills"]} typeSpeed={80} />
                     <br /><br />
+                    <Typography className={classes.subtitle} variant='h3'>
+                <Typed strings={["HTML", "CSS", "Javascript", "Node.js", "Express.js", "mySQL", "React", "noSQL", "MongoDB"]}
+                    typeSpeed={40}
+                    backSpeed={60}
+                    loop />
+            </Typography>
                 </Typography>
                 <Grid item xs={12} md={6}>
                     <div>
@@ -80,11 +93,10 @@ const Skills = () => {
                                     <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
                                 </ListItemIcon>
                                 <ListItemText className={classes.listText}>VSCode</ListItemText>
-
-
-
-
                             </ListItem>
+
+                           
+
                             <ListItem className={classes.listItem}>
                                 <ListItemIcon>
                                     <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
@@ -127,6 +139,19 @@ const Skills = () => {
                                 <ListItemText className={classes.listText}>Mongoose</ListItemText>
 
                             </ListItem>
+
+                            <ListItem className={classes.listItem}>
+                                <ListItemIcon>
+                                    <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
+                                </ListItemIcon>
+                                <ListItemText className={classes.listText}>React</ListItemText>
+                                <ListItemIcon>
+                                    <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
+                                </ListItemIcon>
+                                <ListItemText className={classes.listText}>noSQL</ListItemText>
+                             
+                            </ListItem>
+                            
 
 
                         </List>

@@ -3,6 +3,8 @@ import {AppBar, Toolbar, ListItem, ListItemText, IconButton,
 Avatar, Divider, List, Typography, Box, ListItemIcon, Link} from '@material-ui/core';
 import {ArrowBack, AssignmentInd, Home, Apps, ContactMail, FilterVintage} from '@material-ui/icons';
 import { makeStyles } from '@material-ui/core/styles';
+import KeyboardArrowLeftIcon from '@material-ui/icons/KeyboardArrowLeft';
+import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
 
 
 // CSS styling
@@ -31,8 +33,8 @@ const Navbar = () => {
         <List component='nav' className={classes.list}>
             <ListItem component='div' className={classes.listItem}>
                 <IconButton>
-                    <FilterVintage style={{color:'#25EDE8'}}>
-                    </FilterVintage>
+                    <KeyboardArrowLeftIcon style={{color:'#25EDE8', fontSize:'200%'}}>
+                    </KeyboardArrowLeftIcon>
                 </IconButton>
             <ListItemText inset>
                     <Typography color='inherit' variant='title'>
@@ -68,8 +70,8 @@ const Navbar = () => {
                     </Typography>
                 </ListItemText>
                 <IconButton>
-                    <FilterVintage style={{color:'#25EDE8'}}>
-                    </FilterVintage>
+                    <KeyboardArrowRightIcon style={{color:'#25EDE8', fontSize:'200%'}}>
+                    </KeyboardArrowRightIcon>
                 </IconButton>
             </ListItem>
 

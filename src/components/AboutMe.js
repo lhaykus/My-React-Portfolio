@@ -6,17 +6,19 @@ import {
 } from '@material-ui/core';
 import { makeStyles } from '@material-ui/styles';
 import Typed from 'react-typed';
-import avatar from '../assets/avatar.jpg';
+import avatar from '../assets/me2.jpg';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { EmailOutlined } from '@material-ui/icons';
+import resume from '../assets/CodingResume2.pdf';
+import FileCopyIcon from '@material-ui/icons/FileCopy';
 
 //styling for the about me section
 const useStyles = makeStyles(theme => ({
     aboutTitle: {
-        color: "#29C5C2",
+        color: "#801BEB",
         fontWeight: 'bold',
         padding: '5px'
     },
@@ -72,7 +74,8 @@ const AboutMe = () => {
                                 a big part in my life so becoming a software developer is
                                 quite exciting for me. Other than coding and video games,
                                 I have a huge love for cars and racing, as well as nature
-                                and animals. This portfolio is the just the beginning of my journey and I am excited to add projects over the years!</Typography>
+                                and animals. This portfolio is the just the beginning of my journey 
+                                and I am excited to add projects over the years! Linked below are links to my Github, Linkedin and my Resume, take a look!</Typography>
                                 <br /> <br />
                                 <Container align='center' fontSize='large'  margin = '5px'>
                                 <Link href='https://github.com/lhaykus' className= {classes.link} target="_blank" fontSize='large'>
@@ -81,8 +84,8 @@ const AboutMe = () => {
                                 <Link href='https://www.linkedin.com/in/loryn-haykus/' className= {classes.link} target="_blank">
                                     <LinkedInIcon style={{color: '#801BEB', fontSize: '800%', padding:'20px'}} />
                                 </Link>
-                                <Link href='https://github.com/lhaykus' className= {classes.link} target="_blank">
-                                    <EmailOutlined style={{color: "#D714EA", fontSize:'800%', padding:'20px'}} />
+                                <Link href={resume} className= {classes.link} target="_blank">
+                                    <FileCopyIcon style={{color: "#D714EA", fontSize:'800%', padding:'20px'}}/>
                                 </Link>
                                 </Container>
 

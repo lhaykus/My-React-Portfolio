@@ -12,6 +12,8 @@ import lines from './assets/lines.jpg';
 import Skills from './components/Skills';
 import ContactMe from './components/ContactMe';
 
+
+
 function App() {
   return (
     <main>
@@ -20,7 +22,7 @@ function App() {
       <Navbar />
       <Header />
       <Parallax bgImage={lines} strength={200} bgImageStyle={{height:'800px', width:'2050px'}}>
-        <div style={{height: 600}}>
+        <div style={{height: 500}}>
         </div>
       </Parallax>
       <AboutMe />
