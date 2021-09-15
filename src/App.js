@@ -41,8 +41,6 @@ function App() {
         </div>
       </Parallax>
       <ContactMe />
-
-
       </>
     </main>
   );

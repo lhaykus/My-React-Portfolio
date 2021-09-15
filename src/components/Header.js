@@ -14,33 +14,14 @@ const useStyles = makeStyles(theme => ({
         color: "white",
         fontWeight: 'bold'
     },
-
     subtitle: {
         color: '#DD1FD1',
-        
         fontWeight: 'bold',
-        textAlign: 'right',
-        
+        textAlign: 'right', 
     },
-
-   // hero: {
-     //   backgroundImage: `url('https://img5.goodfon.com/wallpaper/nbig/7/1d/tansie-stephens-by-tansie-stephens-systemic-recharge.jpg') `,
-      //  height: '1000px',
-      //  backgroundPosition: 'center',
-      //  backgroundRepeat: 'no-repeat',
-      //  backgroundSize: 'cover',
-      //  position: 'relative',
-      //  display: 'flex',
-      //  justifyContent: 'center',
-      //  alignItems: 'center',
-       
-  //  },
     typedContainer: {
         zIndex: 1,
         textAlign: 'center',
-        
-       
-
     }, 
     parallax: {
         height: '1000px',
@@ -50,22 +31,21 @@ const useStyles = makeStyles(theme => ({
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-
     }
 }));
 
 const Header = () => {
     const classes = useStyles();
+
     return (
-        
         <Box className={classes.typedContainer}>
             <Grid>
-                
              <Parallax className={classes.parallax} bgImage={scifi} strength={200} bgImageStyle={{height:'1000px', width:'2050px'}} >
         <div> 
             <Typography className={classes.title} variant='h2'>
                 <Typed strings={["Loryn Haykus Software Developer" ]} typeSpeed={80} />
             </Typography>
+            {/* Using typed to create an animation on the text */}
             <Typography className={classes.subtitle} variant='h3'>
                 <Typed strings={["Coder", "Nerd", "Gamer", "Passionate", 'Determined']}
                     typeSpeed={80}
@@ -73,16 +53,9 @@ const Header = () => {
                     loop />
             </Typography>
         </div>
-        
-            
-            
-            
             </Parallax>
             </Grid>
-       
-           
         </Box>
-      
     );
 };
 

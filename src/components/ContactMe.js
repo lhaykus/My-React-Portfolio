@@ -1,8 +1,5 @@
-import React, {useState, useEffect} from 'react';
-import {
-    AppBar, Toolbar, ListItem, ListItemText, IconButton,
-    Avatar, Divider, List, Typography, Box, Container, Grid, CardContent, Card, TextField, Button, Link
-} from '@material-ui/core';
+import React, { useState, useEffect } from 'react';
+import { Typography, Box, Container, Grid, CardContent, Card, TextField, Button, Link } from '@material-ui/core';
 import { makeStyles } from '@material-ui/styles';
 import Typed from 'react-typed';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -14,8 +11,6 @@ import resume from '../assets/CodingResume2.pdf';
 import FileCopyIcon from '@material-ui/icons/FileCopy';
 
 //import {useForm, Form} from '..components/useForm';
-
-
 
 
 
@@ -34,7 +29,7 @@ const useStyles = makeStyles(theme => ({
     footer: {
         textAlign: 'center',
         textDecoration: 'none',
-        color:'#1CC1E7',
+        color: '#1CC1E7',
         marginTop: '20px',
         fontSize: '120%'
     }
@@ -44,23 +39,23 @@ const useStyles = makeStyles(theme => ({
 
 const ContactMe = () => {
     const classes = useStyles();
-
-   /* const initialValues = {
-        firstName: '',
-        lastName:'',
-        email: '',
-        phoneNumber: ''  
-     }
-
-   
-    const {
-        values,
-        setValues,
-        handleInputChange,
-    }=useForm(initialValues);
     
-*/
-   
+    /* const initialValues = {
+         firstName: '',
+         lastName:'',
+         email: '',
+         phoneNumber: ''  
+      }
+ 
+    
+     const {
+         values,
+         setValues,
+         handleInputChange,
+     }=useForm(initialValues);
+     
+ */
+
     return (
         <section id='contactme'>
             <Container component='div'>
@@ -111,29 +106,28 @@ const ContactMe = () => {
                     <Typed strings={["720-209-4224"]} typeSpeed={80} style={{ color: '#801BEB' }} />
                     <br />
                     <Typed strings={["haykusloryn@gmail.com"]} typeSpeed={80} style={{ color: '#D714EA', }}>
-                        
-                        </Typed>
+                    </Typed>
                 </Typography>
-                <Container align='center' fontSize='large'  margin = '5px'>
-                                <Link href='https://github.com/lhaykus' className= {classes.link} target="_blank" fontSize='large'>
-                                    <GitHubIcon style={{color: '#1CC1E7', fontSize:'800%', padding:'20px'}} />
-                                </Link>
-                                <Link href='https://www.linkedin.com/in/loryn-haykus/' className= {classes.link} target="_blank">
-                                    <LinkedInIcon style={{color: '#801BEB', fontSize: '800%', padding:'20px'}} />
-                                </Link>
-                                <Link href={resume} className= {classes.link} target="_blank">
-                                    <FileCopyIcon style={{color: "#D714EA", fontSize:'800%', padding:'20px'}}/>
-                                </Link>
-                                </Container>
+                {/* Contact Info */}
+                <Container align='center' fontSize='large' margin='5px'>
+                    <Link href='https://github.com/lhaykus' className={classes.link} target="_blank" fontSize='large'>
+                        <GitHubIcon style={{ color: '#1CC1E7', fontSize: '800%', padding: '20px' }} />
+                    </Link>
+                    <Link href='https://www.linkedin.com/in/loryn-haykus/' className={classes.link} target="_blank">
+                        <LinkedInIcon style={{ color: '#801BEB', fontSize: '800%', padding: '20px' }} />
+                    </Link>
+                    <Link href={resume} className={classes.link} target="_blank">
+                        <FileCopyIcon style={{ color: "#D714EA", fontSize: '800%', padding: '20px' }} />
+                    </Link>
+                </Container>
             </Container>
             <footer className={classes.footer}>
-            <div>@
-            <Link className={classes.footer} href='https://github.com/lhaykus' target='_blank'>DragonWhisperer</Link>
-            </div>
-        </footer>
+                <div>@
+                    <Link className={classes.footer} href='https://github.com/lhaykus' target='_blank'>DragonWhisperer</Link>
+                </div>
+            </footer>
         </section>
-        
-    )
-}
+    );
+};
 
 export default ContactMe;

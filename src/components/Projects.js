@@ -1,3 +1,4 @@
+//Importing all packages and images 
 import React, { useState } from 'react';
 import Typed from 'react-typed';
 import { Box, Grid, Card, CardActionArea, CardActions, CardContent, CardMedia, Button, Typography } from '@material-ui/core';
@@ -17,8 +18,7 @@ import dayGif from '../assets/daygif.gif';
 import sharkGif from '../assets/sharkgif.gif';
 
 
-
-
+//CSS Styling
 const useStyles = makeStyles(theme => ({
     projectTitle: {
         color: "#E4188A",
@@ -41,7 +41,6 @@ const useStyles = makeStyles(theme => ({
 
     cardContainer: {
         maxWidth: '650px',
-        margin: '3rem',
         margin: '5rem auto',
         backgroundColor: 'black',
 
@@ -60,31 +59,33 @@ const useStyles = makeStyles(theme => ({
         textDecoration: 'underline',
         fontWeight: 'bold'
     },
-
-    frontImage: {
-        maxWidth: '680px',
-
-    },
     frontFlipButton: {
         alignItems: 'center',
         marginBottom: '30px',
-        color: '#CF12D8',
+        color: '#0FB3EE',
         fontSize: '120%',
         textDecoration: 'underline',
         fontWeight: 'bold',
-
-
-    }
+    },
+     backImage: {
+         width: "720px",
+         
+     },
+     frontImage: {
+         width: '720px'
+     }
 
 }));
 
 
-
-
-
+// Creating function for projects page
 const Projects = () => {
+
+    //Creating variable classes to target styling
     const classes = useStyles();
 
+    //Function for the card flip
+    //On click if card is not flipped, then flip it
     const [isFlipped, setIsFlipped] = useState(false);
     const handleClick = () => {
         setIsFlipped(!isFlipped);
@@ -107,7 +108,7 @@ const Projects = () => {
                                         <CardActionArea>
                                             <Button className={classes.frontFlipButton} onClick={handleClick}>Click for more info!</Button>
                                             <Typography gutterBottom variant='h4' className={classes.cardTitle}>4th Kind</Typography>
-                                            <CardMedia component='img' alt='project1' height='500px'
+                                            <CardMedia className={classes.frontImage} component='img' alt='project1' height='500px'
                                                 image={fourthKind} />
                                             <CardContent>
 
@@ -134,7 +135,7 @@ const Projects = () => {
                                             pinpoint
                                             sighting locations and see others' pinpoints as well.</Typography>
                                         <br /> <br />
-                                        <img className={classes.frontImage} src={fourthKindGif} alt='UFO tracking webpage' />
+                                        <img className={classes.backImage} src={fourthKindGif} alt='UFO tracking webpage' />
                                         <Button className={classes.buttons} href='https://github.com/lhaykus/4thKind' target="_blank" size='small' color="#DD1FD1">Github</Button>
                                         <Button className={classes.buttons} href='https://the-4th-kind.herokuapp.com/' target='_blank' size='small' >Deployed App</Button>
                                     </div>
@@ -150,7 +151,7 @@ const Projects = () => {
                                         <CardActionArea>
                                             <Button className={classes.frontFlipButton} onClick={handleClick}>Click for more info!</Button>
                                             <Typography gutterBottom variant='h4' className={classes.cardTitle}>Weather Dashboard</Typography>
-                                            <CardMedia component='img' alt='project1' height='500px'
+                                            <CardMedia className={classes.frontImage} component='img' alt='project1' height='500px'
                                                 image={weather} />
                                             <CardContent>
 
@@ -171,7 +172,7 @@ const Projects = () => {
                                             forecast of any city using <Typography style={{ color: '#DD1FD1', fontSize: '120%' }} variant='h4'> API calls
                                                 and Javascript.</Typography></Typography>
                                         <br /> <br />
-                                        <img className={classes.frontImage} src={weatherGif} alt='Weather dashboard' />
+                                        <img className={classes.backImage} src={weatherGif} alt='Weather dashboard' />
                                         <Button className={classes.buttons} href='https://github.com/lhaykus/Weather-Dashboard' target="_blank" size='small' color="#DD1FD1">Github</Button>
                                         <Button className={classes.buttons} href='https://lhaykus.github.io/Weather-Dashboard/' target="_blank" size='small' >Deployed App</Button>
                                     </div>
@@ -187,7 +188,7 @@ const Projects = () => {
                                         <CardActionArea>
                                             <Button className={classes.frontFlipButton} onClick={handleClick}>Click for more info!</Button>
                                             <Typography gutterBottom variant='h4' className={classes.cardTitle}>Get Physical</Typography>
-                                            <CardMedia component='img' alt='project1' height='500px'
+                                            <CardMedia className={classes.frontImage} component='img' alt='project1' height='500px'
                                                 image={workout} />
                                             <CardContent>
 
@@ -206,10 +207,10 @@ const Projects = () => {
                                         <Button className={classes.frontFlipButton} onClick={handleClick}>Go back</Button>
                                         <Typography variant='body2' color="textSecondary" component='p' className={classes.text}>A NoSQL workout tracker app where users can create
                                             and track daily workouts! Powered by  <Typography style={{ color: '#DD1FD1', fontSize: '120%' }} variant='h4'> Mongoose
-                                                and Javascript.</Typography> this app allows users to track the name, type, weight, sets, reps and duration of
+                                                and Javascript.</Typography> This app allows users to track the name, type, weight, sets, reps and duration of
                                             exercises they are doing. A weekly chart allows users to visually see their progess and the workouts theyve completed in a week!</Typography>
                                         <br /> <br />
-                                        <img className={classes.frontImage} src={workoutGif} alt='Weather dashboard' />
+                                        <img className={classes.backImage} src={workoutGif} alt='Weather dashboard' />
                                         <Button className={classes.buttons} href='https://github.com/lhaykus/get-physical' target="_blank" size='small' color="#DD1FD1">Github</Button>
                                         <Button className={classes.buttons} href='https://get-physical-fitness-tracker.herokuapp.com/?id=6130192ac065490016542980' target="_blank" size='small' >Deployed App</Button>
                                     </div>
@@ -225,7 +226,7 @@ const Projects = () => {
                                         <CardActionArea>
                                             <Button className={classes.frontFlipButton} onClick={handleClick}>Click for more info!</Button>
                                             <Typography gutterBottom variant='h4' className={classes.cardTitle}>Video Game and Movie Quiz</Typography>
-                                            <CardMedia component='img' alt='project1' height='500px'
+                                            <CardMedia className={classes.frontImage} component='img' alt='project1' height='500px'
                                                 image={quiz} />
                                             <CardContent>
 
@@ -244,9 +245,9 @@ const Projects = () => {
                                         <Button className={classes.frontFlipButton} onClick={handleClick}>Go back</Button>
                                         <Typography variant='body2' color="textSecondary" component='p' className={classes.text}>A fun quiz to test your video game/movie knowledge using <Typography style={{ color: '#DD1FD1', fontSize: '120%' }} variant='h4'> HTML, CSS, Local Storage
                                             and Javascript.</Typography>This app keeps score of what answers the user chooses, deductes 10 seconds off the timer for every wrong answer chosen and gives the ability to put your name and score into the database to keep track of high scores!
-                                            .</Typography>
+                                            </Typography>
                                         <br /> <br />
-                                        <img className={classes.frontImage} src={quizGif} alt='Weather dashboard' />
+                                        <img className={classes.backImage} src={quizGif} alt='Weather dashboard' />
                                         <Button className={classes.buttons} href='https://github.com/lhaykus/video-game-quiz' target="_blank" size='small' >Github</Button>
                                         <Button className={classes.buttons} href='https://lhaykus.github.io/video-game-quiz/' target="_blank" size='small' >Deployed App</Button>
                                     </div>
@@ -262,7 +263,7 @@ const Projects = () => {
                                         <CardActionArea>
                                             <Button className={classes.frontFlipButton} onClick={handleClick}>Click for more info!</Button>
                                             <Typography gutterBottom variant='h4' className={classes.cardTitle}>Make My Day</Typography>
-                                            <CardMedia component='img' alt='project1' height='500px'
+                                            <CardMedia className={classes.frontImage} component='img' alt='project1' height='500px'
                                                 image={makemyday} />
                                             <CardContent>
 
@@ -283,7 +284,7 @@ const Projects = () => {
                                             and Quotes APIs.</Typography> When on this app users are able to scroll through randolmy generated memes, images, and quotes. Users are able to favorite content
                                             that will be rendered on a personal favorite page.</Typography>
                                         <br /> <br />
-                                        <img className={classes.frontImage} src={dayGif} alt='Weather dashboard' />
+                                        <img className={classes.backImage} src={dayGif} alt='Weather dashboard' />
                                         <Button className={classes.buttons} href='https://github.com/lhaykus/First_Project' target="_blank" size='small' >Github</Button>
                                         <Button className={classes.buttons} href='https://themimmzyy.github.io/First_Project/Home/index.html' target="_blank" size='small'>Deployed App</Button>
                                     </div>
@@ -299,7 +300,7 @@ const Projects = () => {
                                         <CardActionArea>
                                             <Button className={classes.frontFlipButton} onClick={handleClick}>Click for more info!</Button>
                                             <Typography gutterBottom variant='h4' className={classes.cardTitle}>Under The Sea</Typography>
-                                            <CardMedia component='img' alt='project1' height='500px'
+                                            <CardMedia className={classes.frontImage} component='img' alt='project1' height='500px'
                                                 image={shark} />
                                             <CardContent>
 
@@ -319,7 +320,7 @@ const Projects = () => {
                                         <Typography variant='body2' color="textSecondary" component='p' className={classes.text}>This is a fun webpage I made to practice my
                                             styling skills. I love the ocean and this is a page dedicated to the knowledge of sharks and whales, and how to help protect them and the oceans</Typography>
                                         <br /> <br />
-                                        <img className={classes.frontImage} src={sharkGif} alt='Weather dashboard' />
+                                        <img className={classes.backImage} src={sharkGif} alt='Weather dashboard' />
                                         <Button className={classes.buttons} href='https://github.com/lhaykus/shark-facts' target="_blank" size='small' >Github</Button>
                                         <Button className={classes.buttons} href='https://lhaykus.github.io/shark-facts/' target="_blank" size='small' >Deployed App</Button>
                                     </div>
