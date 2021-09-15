@@ -20,6 +20,9 @@ I used React and Material UI to build a responsive, unique, interactive portfoli
 
 ## Built With
 
+
+
+
 * <span style='color:#9F4FEA; font-weight:bold'> React </span>
     * <span style='color:#1FD5E9; font-weight:bold'> React Parallax </span>
     * <span style='color:#1FD5E9; font-weight:bold'> React Typed </span>
