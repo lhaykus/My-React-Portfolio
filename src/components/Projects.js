@@ -47,7 +47,8 @@ const useStyles = makeStyles(theme => ({
     buttons: {
         color: '#CF12D8',
         fontSize: '120%',
-        textDecoration: 'underline'
+        textDecoration: 'underline',
+        fontWeight: 'bold'
     }
 
 }));
@@ -152,7 +153,7 @@ const Projects = () => {
                                             and Javascript.</Typography>This app keeps score of what answers the user chooses, deductes 10 seconds off the timer for every wrong answer chosen and gives the ability to put your name and score into the database to keep track of high scores!
                                             .</Typography>
                                         <br /> <br />
-                                        <Typography style={{ color: '#2AC1BD', fontSize: '120%', textAlign: 'center', fontWeight: 'bold' }} variant='h4'> |MongoDB|
+                                        <Typography style={{ color: '#2AC1BD', fontSize: '120%', textAlign: 'center', fontWeight: 'bold' }} variant='h4'> 
                                             |HTML| |CSS| |Javascript|</Typography>
                                     </CardContent>
                                     <CardActions>
