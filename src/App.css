@@ -1,8 +1,13 @@
-body, html, section, nav, * {
+* {
+  box-sizing: border-box;
+}
+
+body, html, section, nav, br, .break {
   background-color: black;
-  margin: 5px,
+ 
   
 }
+
 
 
 

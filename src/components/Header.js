@@ -10,18 +10,19 @@ import hero from '../assets/heroimage.jpg';
 const useStyles = makeStyles(theme => ({
     title: {
         color: "white",
-        fontWeight: 'bold',
-        backgroundColor: 'transparent'
+        fontWeight: 'bold'
     },
+
     subtitle: {
         color: '#DD1FD1',
-        marginBottom: '3rem',
-        fontWeight: 'bold'
+        marginTop: '10rem',
+        fontWeight: 'bold',
+        textAlign: 'center'
     },
 
     hero: {
         backgroundImage: `url('https://img5.goodfon.com/wallpaper/nbig/7/1d/tansie-stephens-by-tansie-stephens-systemic-recharge.jpg') `,
-        height: '800px',
+        height: '1000px',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
@@ -29,7 +30,7 @@ const useStyles = makeStyles(theme => ({
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        margin: '5px'
+       
     },
     typedContainer: {
         zIndex: 1,
@@ -42,20 +43,21 @@ const useStyles = makeStyles(theme => ({
 const Header = () => {
     const classes = useStyles();
     return (
+        
         <Box className={classes.typedContainer}>
             <Grid className={classes.hero} src={hero}> 
             <Typography className={classes.title} variant='h2'>
-                <Typed strings={["Loryn Haykus"]} typeSpeed={40} />
+                <Typed strings={["Loryn Haykus Software Developer" ]} typeSpeed={40} />
             </Typography>
-            <br />
+            <br/> <br/><br/> <br/><br/> <br/>
             <Typography className={classes.subtitle} variant='h3'>
-                <Typed strings={["Software Developer", "Front-End", "Back-end"]}
+                <Typed strings={["HTML", "CSS", "Javascript", "Node.js", "Express.js", "mySQL", "React", "noSQL", "MongoDB"]}
                     typeSpeed={40}
                     backSpeed={60}
                     loop />
             </Typography>
             </Grid>
-            <br/>
+           
         </Box>
       
     );
