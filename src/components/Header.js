@@ -2,8 +2,6 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Avatar, Grid, Box } from '@material-ui/core';
 import Typed from 'react-typed';
-import avatar from '../assets/avatar.jpg';
-import hero from '../assets/heroimage.jpg';
 import { Parallax } from 'react-parallax';
 import scifi from '../assets/scfi.jpg';
 
@@ -43,7 +41,7 @@ const Header = () => {
              <Parallax className={classes.parallax} bgImage={scifi} strength={200} bgImageStyle={{height:'1000px', width:'2050px'}} >
         <div> 
             <Typography className={classes.title} variant='h2'>
-                <Typed strings={["Loryn Haykus Software Developer" ]} typeSpeed={80} />
+                <Typed strings={["Software Developer" ]} typeSpeed={80} />
             </Typography>
             {/* Using typed to create an animation on the text */}
             <Typography className={classes.subtitle} variant='h3'>

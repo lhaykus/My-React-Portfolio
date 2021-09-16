@@ -3,6 +3,7 @@ import { AppBar, Toolbar, ListItem, ListItemText, IconButton, Avatar, Divider, L
 import { makeStyles } from '@material-ui/core/styles';
 import KeyboardArrowLeftIcon from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
+import Typed from 'react-typed';
 
 
 // CSS styling
@@ -33,9 +34,9 @@ const Navbar = () => {
                     </KeyboardArrowLeftIcon>
                 </IconButton>
                 <ListItemText inset>
-                    <Typography color='white' variant='title'>
-                        Loryn Haykus
-                    </Typography>
+                <Typography className={classes.title} variant='h3'>
+                <Typed strings={["Loryn Haykus" ]} typeSpeed={80} />
+            </Typography>
                 </ListItemText>
                 <ListItemText inset>
                     <Typography color='white' variant='title'>
