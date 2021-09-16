@@ -20,7 +20,7 @@ I used React and Material UI to build a responsive, unique, interactive portfoli
 
 - [X]  **React Parallax** was used to create a fun background that 'moves' when scrolling
 - [X]  **React Typed** was used to create a fun animation for text that makes words look like they are being typed and erased on the page.
-- [X] **React Card Flip**  was used for my project page. The front side is a picture of the app with some deployment links and the title. When you click the 'Click for more info' button, the card is turned around to the other side that has a decription of the app and a GIF is seen.
+- [X] **React Card Flip**  was used for my project page. The front side is a picture of the app with some deployment links and the title. When you click the 'Click for more info' button, the card is turned around to the other side that has a decription of the app and a GIF of the app being used.
 - [X] **Scroll Button** - when a user scrolls down from the top of the page a little blue circle appears that takes users back to top of page when clicked.
 - [X] **Responsive Navbar** - The navbar changes into a menu icon when screen sizes decrease.
 
@@ -51,6 +51,10 @@ Contact Form
 React Typed animation throught the app
 
 ![typedanimation](src/assets/typed.gif)
+
+Scroll Button to scroll back to top of page 
+
+![scroll](src/assets/scrollbutton.gif)
 
 
 ## Credits
