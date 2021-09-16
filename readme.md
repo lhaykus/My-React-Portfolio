@@ -1,9 +1,12 @@
 # <h1 align='center'>My Portfolio</h1>
 <p align='center'>Welcome to my updated portfolio! Using <span style='color:#E34FEA; font-weight:bold'>React</span> and <span style='color:#E34FEA; font-weight:bold'>Material UI </span>this portfolio will be used to show off my projects, skills and let people know more about me!</p>
 
+
 ## Deployed App
 
 https://lhaykus.github.io/My-React-Portfolio/#/
+
+(Artwork for header image created by and credited to [Hybridgothic](https://twitter.com/Hybridgothica))
 
 - [Description](#description)
 - [Built With](#built-with)
@@ -51,7 +54,7 @@ React Typed animation throught the app
 
 
 ## Credits
-* Artwork for header image created by [Hybridgothic](https://twitter.com/Hybridgothica)
+ * Artwork for header image created by and credited to [Hybridgothic](https://twitter.com/Hybridgothica)
 * Creating Contact Form [video](https://www.youtube.com/watch?v=Lv3OhfcxjkA)
 * Parallax [video](https://www.youtube.com/watch?v=QfLI4BoXglA)
 * React Card Flip [article](https://iuliia-proskurnina.medium.com/how-to-integrate-flip-cards-into-react-app-eab089c4df34)
