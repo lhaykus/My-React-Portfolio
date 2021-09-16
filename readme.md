@@ -11,6 +11,7 @@ https://lhaykus.github.io/My-React-Portfolio/#/
 - [Description](#description)
 - [Built With](#built-with)
 - [App View](#app-view)
+- [Future Developments](#future-developments)
 - [Credits](#credits)
 
 
@@ -56,6 +57,12 @@ Scroll Button to scroll back to top of page
 
 ![scroll](src/assets/scrollbutton.gif)
 
+
+## Future Developments
+
+* To make the skills section and overall layout more mobile respoonsive
+* To get Contact Form to function
+* To create cool 3D effects 
 
 ## Credits
  * Artwork for header image created by and credited to [Hybridgothic](https://twitter.com/Hybridgothica)
