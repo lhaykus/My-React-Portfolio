@@ -40,11 +40,11 @@ const Header = () => {
             <Grid>
              <Parallax className={classes.parallax} bgImage={scifi} strength={200} bgImageStyle={{height:'1000px', width:'2050px'}} >
         <div> 
-            <Typography className={classes.title} variant='h2'>
+            <Typography className={classes.title} variant='h1'>
                 <Typed strings={["Software Developer" ]} typeSpeed={80} />
             </Typography>
             {/* Using typed to create an animation on the text */}
-            <Typography className={classes.subtitle} variant='h3'>
+            <Typography className={classes.subtitle} variant='h2'>
                 <Typed strings={["Coder", "Nerd", "Gamer", "Passionate", 'Determined']}
                     typeSpeed={80}
                     backSpeed={60}

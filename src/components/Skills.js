@@ -77,7 +77,6 @@ const Skills = () => {
                                     <ArrowForwardIosIcon style={{ color: '#25EDE8' }}></ArrowForwardIosIcon>
                                 </ListItemIcon>
                             </ListItem>
-
                             <ListItem className={classes.listItem}>
                                 <ListItemIcon>
                                     <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
@@ -86,8 +85,6 @@ const Skills = () => {
                                 <ListItemIcon>
                                     <ArrowForwardIosIcon style={{ color: '#25EDE8' }}></ArrowForwardIosIcon>
                                 </ListItemIcon>
-                                
-
                                 <ListItemIcon>
                                     <ArrowBackIosIcon style={{ color: '#25EDE8' }}></ArrowBackIosIcon>
                                 </ListItemIcon>
@@ -102,7 +99,6 @@ const Skills = () => {
                                 <ListItemIcon>
                                     <ArrowForwardIosIcon style={{ color: '#25EDE8' }}></ArrowForwardIosIcon>
                                 </ListItemIcon>
-                                
                             </ListItem>
                             <ListItem className={classes.listItem}>
                                 <ListItemIcon>
@@ -126,7 +122,6 @@ const Skills = () => {
                                 <ListItemIcon>
                                     <ArrowForwardIosIcon style={{ color: '#25EDE8' }}></ArrowForwardIosIcon>
                                 </ListItemIcon>
-                               
                             </ListItem>
                             <ListItem className={classes.listItem}>
                                 <ListItemIcon>
@@ -174,15 +169,14 @@ const Skills = () => {
                                     <ArrowForwardIosIcon style={{ color: '#25EDE8' }}></ArrowForwardIosIcon>
                                 </ListItemIcon>
                             </ListItem>
-                            
                         </List>
-                        <br/>
+                        <br />
                         <Typography className={classes.subtitle} variant='h3'>
-                        <Typed strings={["HTML", "CSS", "Javascript", "Node.js", "Express.js", "mySQL", "React", "noSQL", "MongoDB"]}
-                            typeSpeed={80}
-                            backSpeed={60}
-                            loop />
-                    </Typography>
+                            <Typed strings={["HTML", "CSS", "Javascript", "Node.js", "Express.js", "mySQL", "React", "noSQL", "MongoDB"]}
+                                typeSpeed={80}
+                                backSpeed={60}
+                                loop />
+                        </Typography>
                     </div>
                 </Grid>
             </Container>

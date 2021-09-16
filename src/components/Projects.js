@@ -111,7 +111,6 @@ const Projects = () => {
                                             <CardMedia className={classes.frontImage} component='img' alt='project1' height='500px'
                                                 image={fourthKind} />
                                             <CardContent>
-
                                                 <Typography style={{ color: '#2AC1BD', fontSize: '120%', textAlign: 'center', fontWeight: 'bold' }} variant='h4'> |express.js|
                                                     |sequelize| |handlebars| |Node.js|</Typography>
                                                 <CardActions>
