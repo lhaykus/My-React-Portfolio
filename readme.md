@@ -50,4 +50,4 @@ React Typed animation throught the app
 * Creating Contact Form [video](https://www.youtube.com/watch?v=Lv3OhfcxjkA)
 * Parallax [video](https://www.youtube.com/watch?v=QfLI4BoXglA)
 * React Card Flip [article](https://iuliia-proskurnina.medium.com/how-to-integrate-flip-cards-into-react-app-eab089c4df34)
-* Creating scroll to the top effect [video](https://dev.to/ailuj876/scroll-to-top-back-to-top-react-and-materialui-4j3f)
+* Creating scroll button that scrolls to top of page when at middle/end [video](https://dev.to/ailuj876/scroll-to-top-back-to-top-react-and-materialui-4j3f)
