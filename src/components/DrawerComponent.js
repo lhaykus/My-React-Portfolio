@@ -15,7 +15,7 @@ const useStyles = makeStyles(theme => ({
 
 const DrawerComponent = () => {
     const classes = useStyles();
-    const [openDrawer, setOpenDrawer] = useState(true);
+    const [openDrawer, setOpenDrawer] = useState();
 
 
     return (

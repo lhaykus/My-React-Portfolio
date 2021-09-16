@@ -40,7 +40,7 @@ const Navbar = () => {
     return (
         <section>
             {/* If screen goes down to 'sm' run the drawercomponent function which turns navbar into
-            hamburger menu icon OTHERWISE do the normal navbar */}
+            hamburger menu icon OTHERWISE do the normal */}
             {isMatch ? (<DrawerComponent />) : (
                 <>
                     <List component='nav' className={classes.list}>

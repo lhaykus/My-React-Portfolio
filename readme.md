@@ -13,9 +13,13 @@ https://lhaykus.github.io/My-React-Portfolio/#/
 
 ## Description
 I used React and Material UI to build a responsive, unique, interactive portfolio to showcase my coding projects! 
-- [X] <span style='color:#0FB3EE; font-weight:bold'>React Parallax</span> was used to create a fun background that 'moves' when scrolling
-- [X] <span style='color:#0FB3EE; font-weight:bold'>React Typed </span> was used to create a fun animation for text that makes words look like they are being typed and erased on the page.
-- [X] <span style='color:#0FB3EE; font-weight:bold'>React Card Flip </span> was used for my project page. The front side is a picture of the app with some deployment links and the title. When you click the 'Click for more info' button, the card is turned around to the other side that has a decription of the app and a GIF is seen.
+## Features
+
+- [X]  **React Parallax** was used to create a fun background that 'moves' when scrolling
+- [X]  **React Typed** was used to create a fun animation for text that makes words look like they are being typed and erased on the page.
+- [X] **React Card Flip**  was used for my project page. The front side is a picture of the app with some deployment links and the title. When you click the 'Click for more info' button, the card is turned around to the other side that has a decription of the app and a GIF is seen.
+- [X] **Scroll Button** - when a user scrolls down from the top of the page a little blue circle appears that takes users back to top of page when clicked.
+- [X] **Responsive Navbar** - The navbar changes into a menu icon when screen sizes decrease.
 
 
 ## Built With
@@ -47,7 +51,9 @@ React Typed animation throught the app
 
 
 ## Credits
+* Artwork for header image created by [Hybridgothic](https://twitter.com/Hybridgothica)
 * Creating Contact Form [video](https://www.youtube.com/watch?v=Lv3OhfcxjkA)
 * Parallax [video](https://www.youtube.com/watch?v=QfLI4BoXglA)
 * React Card Flip [article](https://iuliia-proskurnina.medium.com/how-to-integrate-flip-cards-into-react-app-eab089c4df34)
 * Creating scroll button that scrolls to top of page when at middle/end [video](https://dev.to/ailuj876/scroll-to-top-back-to-top-react-and-materialui-4j3f)
+* Responsive Navbar with MaterialUI and React [video](https://www.youtube.com/watch?v=6JSkAfNvY4M)

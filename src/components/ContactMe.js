@@ -124,6 +124,7 @@ const ContactMe = () => {
             <footer className={classes.footer}>
                 <div>@
                     <Link className={classes.footer} href='https://github.com/lhaykus' target='_blank'>DragonWhisperer</Link>
+                    <p>Cover Artwork created by and credited to <a style={{color:'white'}} href="https://twitter.com/Hybridgothica" target='_blank'>Hybridgothica</a></p>
                 </div>
             </footer>
         </section>
