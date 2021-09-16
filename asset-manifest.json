@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/My-React-Portfolio/static/css/main.ff273605.chunk.css",
-    "main.js": "/My-React-Portfolio/static/js/main.7c9cfcfc.chunk.js",
-    "main.js.map": "/My-React-Portfolio/static/js/main.7c9cfcfc.chunk.js.map",
+    "main.js": "/My-React-Portfolio/static/js/main.d15281f4.chunk.js",
+    "main.js.map": "/My-React-Portfolio/static/js/main.d15281f4.chunk.js.map",
     "runtime-main.js": "/My-React-Portfolio/static/js/runtime-main.03c2247c.js",
     "runtime-main.js.map": "/My-React-Portfolio/static/js/runtime-main.03c2247c.js.map",
     "static/js/2.b16898e0.chunk.js": "/My-React-Portfolio/static/js/2.b16898e0.chunk.js",
@@ -15,6 +15,8 @@
     "static/media/4thkind.3ae6cdea.png": "/My-React-Portfolio/static/media/4thkind.3ae6cdea.png",
     "static/media/4thkindgif.8c75fce2.gif": "/My-React-Portfolio/static/media/4thkindgif.8c75fce2.gif",
     "static/media/CodingResume2.679cdfb7.pdf": "/My-React-Portfolio/static/media/CodingResume2.679cdfb7.pdf",
+    "static/media/budgetGif.3bb9067c.gif": "/My-React-Portfolio/static/media/budgetGif.3bb9067c.gif",
+    "static/media/budgetTracker.3b6badd8.png": "/My-React-Portfolio/static/media/budgetTracker.3b6badd8.png",
     "static/media/daygif.7d137b07.gif": "/My-React-Portfolio/static/media/daygif.7d137b07.gif",
     "static/media/lines.dfd1ad40.jpg": "/My-React-Portfolio/static/media/lines.dfd1ad40.jpg",
     "static/media/makemyday.d37ae5f2.png": "/My-React-Portfolio/static/media/makemyday.d37ae5f2.png",
@@ -33,6 +35,6 @@
     "static/js/runtime-main.03c2247c.js",
     "static/js/2.b16898e0.chunk.js",
     "static/css/main.ff273605.chunk.css",
-    "static/js/main.7c9cfcfc.chunk.js"
+    "static/js/main.d15281f4.chunk.js"
   ]
 }
