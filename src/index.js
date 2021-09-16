@@ -4,7 +4,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter } from 'react-router-dom';
 import { ThemeProvider } from '@material-ui/core/styles';
-import theme from './theme';
+
 
 ReactDOM.render(
   <HashRouter>
