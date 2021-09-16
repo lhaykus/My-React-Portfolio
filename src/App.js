@@ -11,6 +11,7 @@ import { Parallax } from 'react-parallax';
 import lines from './assets/lines.jpg';
 import Skills from './components/Skills';
 import ContactMe from './components/ContactMe';
+import Scroll from './components/Scroll';
 
 
 
@@ -41,6 +42,7 @@ function App() {
         </div>
       </Parallax>
       <ContactMe />
+      <Scroll showBelow={250}/>
       </>
     </main>
   );

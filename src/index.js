@@ -6,8 +6,10 @@ import { HashRouter } from 'react-router-dom';
 import { ThemeProvider } from '@material-ui/core/styles';
 
 
+
 ReactDOM.render(
   <HashRouter>
+ 
     <App />
   </HashRouter>,
   document.getElementById('root')
