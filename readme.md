@@ -57,13 +57,17 @@ Scroll Button to scroll back to top of page
 
 ![scroll](src/assets/scrollbutton.gif)
 
+Responsive Navbar
+
+![navbar](src/assets/navbar.gif)
+
 
 ## Future Developments
 
-* To make the skills section and overall layout more mobile respoonsive
-* To get Contact Form to function
-* To create cool 3D effects 
-* Get project cards to flip independently and not all together
+- [] To make the skills section and overall layout more mobile respoonsive
+- [] To get Contact Form to function
+- [] To create cool 3D effects 
+- [] Get project cards to flip independently and not all together
 
 ## Credits
  * Artwork for header image created by and credited to [Hybridgothic](https://twitter.com/Hybridgothica)
