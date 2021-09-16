@@ -187,7 +187,7 @@ const Projects = () => {
                                     <div>
                                         <CardActionArea>
                                             <Button className={classes.frontFlipButton} onClick={handleClick}>Click for more info!</Button>
-                                            <Typography gutterBottom variant='h4' className={classes.cardTitle}>💃 Get Physical ⛷️</Typography>
+                                            <Typography gutterBottom variant='h4' className={classes.cardTitle}> Get Physical </Typography>
                                             <CardMedia className={classes.frontImage} component='img' alt='project1' height='500px'
                                                 image={workout} />
                                             <CardContent>
@@ -225,7 +225,7 @@ const Projects = () => {
                                     <div>
                                         <CardActionArea>
                                             <Button className={classes.frontFlipButton} onClick={handleClick}>Click for more info!</Button>
-                                            <Typography gutterBottom variant='h4' className={classes.cardTitle}>🎮 Video Game and Movie Quiz 🐉</Typography>
+                                            <Typography gutterBottom variant='h4' className={classes.cardTitle}>🎮 Video Game and Movie Quiz 🎮 </Typography>
                                             <CardMedia className={classes.frontImage} component='img' alt='project1' height='500px'
                                                 image={quiz} />
                                             <CardContent>
@@ -262,7 +262,7 @@ const Projects = () => {
                                     <div>
                                         <CardActionArea>
                                             <Button className={classes.frontFlipButton} onClick={handleClick}>Click for more info!</Button>
-                                            <Typography gutterBottom variant='h4' className={classes.cardTitle}>  Make My Day 🙂</Typography>
+                                            <Typography gutterBottom variant='h4' className={classes.cardTitle}>  Make My Day</Typography>
                                             <CardMedia className={classes.frontImage} component='img' alt='project1' height='500px'
                                                 image={makemyday} />
                                             <CardContent>

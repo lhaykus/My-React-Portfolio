@@ -20,9 +20,6 @@ I used React and Material UI to build a responsive, unique, interactive portfoli
 
 ## Built With
 
-
-
-
 * <span style='color:#9F4FEA; font-weight:bold'> React </span>
     * <span style='color:#1FD5E9; font-weight:bold'> React Parallax </span>
     * <span style='color:#1FD5E9; font-weight:bold'> React Typed </span>
@@ -31,6 +28,22 @@ I used React and Material UI to build a responsive, unique, interactive portfoli
 
 
 ## App View
+
+Quick Walkthrough
+
+![walkthrough](src/assets/appwalkthro.gif)
+
+React Card Flip animation in projects section
+
+![cardgif](src/assets/cardgif.gif)
+
+Contact Form
+
+![contactform](src/assets/contact.png)
+
+React Typed animation throught the app
+
+![typedanimation](src/assets/typed.gif)
 
 
 ## Credits
