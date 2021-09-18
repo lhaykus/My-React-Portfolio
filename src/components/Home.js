@@ -4,7 +4,7 @@ import { Typography, Avatar, Grid, Box } from '@material-ui/core';
 import Typed from 'react-typed';
 import { Parallax } from 'react-parallax';
 import scifi from '../assets/scfi.jpg';
-import Footer from '../components/Footer';
+import Footer from './Footer';
 import lines from '../assets/lines.jpg';
 
 
@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
     }
 }));
 
-const Header = () => {
+const Home = () => {
     const classes = useStyles();
 
     return (
@@ -65,4 +65,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Home;

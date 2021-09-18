@@ -1,11 +1,11 @@
 import React from 'react';
 //import { Route } from 'react-router-dom';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
 //Used to get rid of the padding and gaps above the nav bar
 import { CssBaseline } from '@material-ui/core';
 import './App.css';
 import Navbar from './components/Navbar';
-import Header from './components/Header';
+import Home from './components/Home.js';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import { Parallax } from 'react-parallax';
@@ -19,59 +19,39 @@ import Scroll from './components/Scroll';
 function App() {
   return (
     <>
-    <Router>
-      <CssBaseline />
-      <Navbar />
-      <Switch>
-        <Route path = '/' exact component ={Header} />
-        <Route path = '/aboutme' exact component = {AboutMe} />
-        <Route path = '/projects' exact component = {Projects} />
-        <Route path = '/contactme' exact component = {ContactMe} />
-
-      </Switch>
-      
-
-    </Router>
-    <Scroll showBelow={250} />
-   
-    </>
     
+  
+   
+      <div>
+        <nav>
+          <ul id='nav'>
+            <li>
+              <Link to='/'>Home</Link>
+            </li>
+            <li>
+              <Link to='/aboutme'>About Me</Link>
+            </li>
+            <li>
+              <Link to='/projects'>Projects</Link>
+            </li>
+            <li>
+              <Link to='/contactme'>Contact Me</Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
+  
+      <Switch>
+        <Route exact path='/'> <Home /></Route>
+        <Route exact path='/aboutme'> <AboutMe /></Route>
+        <Route exact path='/projects'> <Projects /></Route>
+        <Route exact path='/contactme'> <ContactMe /></Route>
+      </Switch>
+      <Scroll showBelow={250} />
+
+    </>
+
   );
 }
 
 export default App;
-
-
-
- {/*}
-    <main>
-      <>
-     
-      <CssBaseline />
-      <Navbar />
-      <Header />
-      <Parallax bgImage={lines} strength={600} bgImageStyle={{height:'800px', width:'2050px'}}>
-        <div style={{height: 500}}>
-        </div>
-      </Parallax>
-      <AboutMe />
-      <Parallax bgImage={lines} strength={500} bgImageStyle={{height:'750px', width:'2050px'}}>
-        <div style={{height: 500}}>
-        </div>
-      </Parallax>
-      <Projects />
-      <Parallax bgImage={lines} strength={500} bgImageStyle={{height:'750px', width:'2050px'}}>
-        <div style={{height: 500}}>
-        </div>
-      </Parallax>
-      <Skills />
-      <Parallax bgImage={lines} strength={500} bgImageStyle={{height:'750px', width:'2050px'}}>
-        <div style={{height: 500}}>
-        </div>
-      </Parallax>
-      <ContactMe />
-      <Scroll showBelow={250}/>
-      </>
-     
-    </main>
-  {*/}

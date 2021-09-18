@@ -38,7 +38,7 @@ const Navbar = () => {
     const isMatch = useMediaQuery(theme.breakpoints.down('sm'));
 
     return (
-        <section>
+        <nav>
             {/* If screen goes down to 'sm' run the drawercomponent function which turns navbar into
             hamburger menu icon OTHERWISE do the normal */}
             {isMatch ? (<DrawerComponent />) : (
@@ -56,30 +56,22 @@ const Navbar = () => {
                             </ListItemText>
                             <ListItemText inset>
                                 <Typography style={{ color: '#15BDD6' }} variant='title'>
-                                    <Link href='/' style={{ color: '#15BDD6' }}>
-                                        Home
-                                    </Link>
+                                    <Link to='/' style={{ color: '#15BDD6' }}>Home</Link>
                                 </Typography>
                             </ListItemText>
                             <ListItemText inset>
                                 <Typography color='white' variant='title'>
-                                    <Link href='/aboutme' style={{ color: '#15BDD6' }}>
-                                        About Me
-                                    </Link>
+                                <Link to='/aboutme' style={{ color: '#15BDD6' }}>About Me</Link>
                                 </Typography>
                             </ListItemText>
                             <ListItemText inset>
                                 <Typography style={{ color: '#15BDD6' }} variant='title'>
-                                    <Link href='/projects' style={{ color: '#15BDD6' }}>
-                                        Projects
-                                    </Link>
+                                <Link to='/projects' style={{ color: '#15BDD6' }}>Projects</Link>
                                 </Typography>
                             </ListItemText>
                             <ListItemText inset>
                                 <Typography style={{ color: '#15BDD6' }} variant='title'>
-                                    <Link href='/contactme' style={{ color: '#15BDD6' }}>
-                                        Contact Me!
-                                    </Link>
+                                <Link to='/contactme' style={{ color: '#15BDD6' }}>Contact Me!</Link>
                                 </Typography>
                             </ListItemText>
                             <IconButton>
@@ -90,7 +82,8 @@ const Navbar = () => {
                     </List>
                 </>
             )}
-        </section>
+        </nav>
+
 
     );
 };
