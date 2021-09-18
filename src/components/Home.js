@@ -38,6 +38,7 @@ const Home = () => {
     const classes = useStyles();
 
     return (
+        <section id='home'>
         <Box className={classes.typedContainer}>
             <Grid>
              <Parallax className={classes.parallax} bgImage={scifi} strength={200} bgImageStyle={{height:'1000px', width:'2050px'}} >
@@ -61,6 +62,7 @@ const Home = () => {
             <Footer />
             </Grid>
         </Box>
+        </section>
 
     );
 };

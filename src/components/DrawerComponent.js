@@ -24,13 +24,12 @@ const DrawerComponent = () => {
                 anchor='left' onClose={() => setOpenDrawer(false)}
                 open={openDrawer}
                 >
-                <List>
+                <List component='nav'>
                 <ListItem divider button >
                         <ListItemText inset>
                             <Typography>
-                                <Link href='/' style={{color:'#D231EB', fontSize:'30px'}}>
-                                    Home
-                                </Link>
+                                <Link href='#/' style={{color:'#D231EB', fontSize:'30px'}}>
+                                    Home</Link>
                             </Typography>
                         </ListItemText>
                         </ListItem>
