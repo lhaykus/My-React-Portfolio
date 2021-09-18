@@ -2,7 +2,7 @@ import React from 'react';
 //import { Route } from 'react-router-dom';
 import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
 //Used to get rid of the padding and gaps above the nav bar
-import { CssBaseline } from '@material-ui/core';
+import { CssBaseline, Typography, IconButton} from '@material-ui/core';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home.js';
@@ -13,34 +13,46 @@ import lines from './assets/lines.jpg';
 import Skills from './components/Skills';
 import ContactMe from './components/ContactMe';
 import Scroll from './components/Scroll';
+import Typed from 'react-typed';
+import KeyboardArrowLeftIcon from '@material-ui/icons/KeyboardArrowLeft';
+import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
+import CodeIcon from '@material-ui/icons/Code';
 
 
 
 function App() {
   return (
     <>
-    
-  
-   
       <div>
         <nav>
+        <Typography style={{ color: '#DD1FD1' }} variant='h4'>
+                <Typed strings={["Loryn Haykus" ]} typeSpeed={80} />
+            </Typography>
           <ul id='nav'>
+            <IconButton>
+              <CodeIcon style={{ color: '#25EDE8', fontSize: '200%' }}>
+              </CodeIcon>
+            </IconButton>
             <li>
-              <Link to='/'>Home</Link>
+              <Link style={{ color: '#15BDD6' }} to='/'>Home</Link>
             </li>
             <li>
-              <Link to='/aboutme'>About Me</Link>
+              <Link style={{ color: '#15BDD6' }} to='/aboutme'>About Me</Link>
             </li>
             <li>
-              <Link to='/projects'>Projects</Link>
+              <Link style={{ color: '#15BDD6' }} to='/projects'>Projects</Link>
             </li>
             <li>
-              <Link to='/contactme'>Contact Me</Link>
+              <Link style={{ color: '#15BDD6' }} to='/contactme'>Contact Me</Link>
             </li>
+            <IconButton>
+              <CodeIcon style={{ color: '#25EDE8', fontSize: '200%' }}>
+              </CodeIcon>
+            </IconButton>
           </ul>
         </nav>
       </div>
-  
+
       <Switch>
         <Route exact path='/'> <Home /></Route>
         <Route exact path='/aboutme'> <AboutMe /></Route>
