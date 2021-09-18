@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,EACE,qBACF,CAEA,KACE,WAAY,CACZ,UACF,CAEA,gCACE,qBAGF","file":"main.be440129.chunk.css","sourcesContent":["* {\n  box-sizing: border-box;\n}\n\nbody {\n  height: 100%;\n  width: 100%\n}\n\nbody, html, section, nav, br, .break {\n  background-color: black;\n \n  \n}\n\n\n\n\n"]}
