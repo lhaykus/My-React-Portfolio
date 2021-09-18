@@ -18,6 +18,9 @@ import dayGif from '../assets/daygif.gif';
 import sharkGif from '../assets/sharkgif.gif';
 import budget from '../assets/budgetTracker.png';
 import budgetGif from '../assets/budgetGif.gif';
+import { Parallax } from 'react-parallax';
+import lines from '../assets/lines.jpg';
+import Footer from '../components/Footer';
 
 
 //CSS Styling
@@ -96,10 +99,15 @@ const Projects = () => {
         <>
             <section id='projects'>
                 <Box component='div' style={{ color: 'white' }} className={classes.mainContainer}>
+                <Parallax bgImage={lines} strength={600} bgImageStyle={{ height: '800px', width: '2050px' }}>
+                    <div style={{ height: 500 }}>
+                    </div>
+                </Parallax>
                     <Typography variant='h2' align='center' className={classes.projectTitle}>
                         <Typed strings={["My Projects"]} typeSpeed={80} />
                         <br /><br />
                     </Typography>
+                    
                     <Grid container justify='center' alignItems='center' padding='5px' >
                         {/*Card for first project*/}
                         <Grid item xs={12} sm={8} md={6}>
@@ -330,6 +338,11 @@ const Projects = () => {
 
 
                     </Grid>
+                    <Parallax bgImage={lines} strength={600} bgImageStyle={{ height: '800px', width: '2050px' }}>
+                    <div style={{ height: 500 }}>
+                    </div>
+                </Parallax>
+            <Footer />
                 </Box>
             </section>
         </>

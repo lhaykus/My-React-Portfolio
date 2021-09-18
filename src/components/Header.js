@@ -4,6 +4,8 @@ import { Typography, Avatar, Grid, Box } from '@material-ui/core';
 import Typed from 'react-typed';
 import { Parallax } from 'react-parallax';
 import scifi from '../assets/scfi.jpg';
+import Footer from '../components/Footer';
+import lines from '../assets/lines.jpg';
 
 
 //CSS styling
@@ -52,8 +54,14 @@ const Header = () => {
             </Typography>
         </div>
             </Parallax>
+            <Parallax bgImage={lines} strength={600} bgImageStyle={{ height: '800px', width: '2050px' }}>
+                    <div style={{ height: 500 }}>
+                    </div>
+                </Parallax>
+            <Footer />
             </Grid>
         </Box>
+
     );
 };
 

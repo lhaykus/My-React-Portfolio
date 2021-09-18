@@ -9,6 +9,10 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import { EmailOutlined } from '@material-ui/icons';
 import resume from '../assets/CodingResume2.pdf';
 import FileCopyIcon from '@material-ui/icons/FileCopy';
+import Skills from '../components/Skills';
+import { Parallax } from 'react-parallax';
+import lines from '../assets/lines.jpg';
+import Footer from '../components/Footer';
 
 //styling for the about me section
 const useStyles = makeStyles(theme => ({
@@ -87,6 +91,16 @@ const AboutMe = () => {
                         </Grid>
                     </Grid>
                 </Container>
+                <Parallax bgImage={lines} strength={600} bgImageStyle={{ height: '800px', width: '2050px' }}>
+                    <div style={{ height: 500 }}>
+                    </div>
+                </Parallax>
+                <Skills />
+                <Parallax bgImage={lines} strength={600} bgImageStyle={{ height: '800px', width: '2050px' }}>
+                    <div style={{ height: 500 }}>
+                    </div>
+                </Parallax>
+                <Footer />
             </section>
         </>
     );

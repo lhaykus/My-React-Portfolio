@@ -1,5 +1,6 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+//import { Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 //Used to get rid of the padding and gaps above the nav bar
 import { CssBaseline } from '@material-ui/core';
 import './App.css';
@@ -17,8 +18,35 @@ import Scroll from './components/Scroll';
 
 function App() {
   return (
+    <>
+    <Router>
+      <CssBaseline />
+      <Navbar />
+      <Switch>
+        <Route path = '/' exact component ={Header} />
+        <Route path = '/aboutme' exact component = {AboutMe} />
+        <Route path = '/projects' exact component = {Projects} />
+        <Route path = '/contactme' exact component = {ContactMe} />
+
+      </Switch>
+      
+
+    </Router>
+    <Scroll showBelow={250} />
+   
+    </>
+    
+  );
+}
+
+export default App;
+
+
+
+ {/*}
     <main>
       <>
+     
       <CssBaseline />
       <Navbar />
       <Header />
@@ -44,8 +72,6 @@ function App() {
       <ContactMe />
       <Scroll showBelow={250}/>
       </>
+     
     </main>
-  );
-}
-
-export default App;
+  {*/}

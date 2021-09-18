@@ -55,29 +55,29 @@ const Navbar = () => {
                                 </Typography>
                             </ListItemText>
                             <ListItemText inset>
+                                <Typography style={{ color: '#15BDD6' }} variant='title'>
+                                    <Link href='/' style={{ color: '#15BDD6' }}>
+                                        Home
+                                    </Link>
+                                </Typography>
+                            </ListItemText>
+                            <ListItemText inset>
                                 <Typography color='white' variant='title'>
-                                    <Link href='#aboutme' style={{ color: '#15BDD6' }}>
+                                    <Link href='/aboutme' style={{ color: '#15BDD6' }}>
                                         About Me
                                     </Link>
                                 </Typography>
                             </ListItemText>
                             <ListItemText inset>
                                 <Typography style={{ color: '#15BDD6' }} variant='title'>
-                                    <Link href='#projects' style={{ color: '#15BDD6' }}>
+                                    <Link href='/projects' style={{ color: '#15BDD6' }}>
                                         Projects
                                     </Link>
                                 </Typography>
                             </ListItemText>
                             <ListItemText inset>
                                 <Typography style={{ color: '#15BDD6' }} variant='title'>
-                                    <Link href='#skills' style={{ color: '#15BDD6' }}>
-                                        Skills
-                                    </Link>
-                                </Typography>
-                            </ListItemText>
-                            <ListItemText inset>
-                                <Typography style={{ color: '#15BDD6' }} variant='title'>
-                                    <Link href='#contactme' style={{ color: '#15BDD6' }}>
+                                    <Link href='/contactme' style={{ color: '#15BDD6' }}>
                                         Contact Me!
                                     </Link>
                                 </Typography>
