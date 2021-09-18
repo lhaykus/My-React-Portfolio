@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My-React-Portfolio/static/css/main.ff273605.chunk.css",
+    "main.css": "/My-React-Portfolio/static/css/main.be440129.chunk.css",
     "main.js": "/My-React-Portfolio/static/js/main.d15281f4.chunk.js",
     "main.js.map": "/My-React-Portfolio/static/js/main.d15281f4.chunk.js.map",
     "runtime-main.js": "/My-React-Portfolio/static/js/runtime-main.03c2247c.js",
@@ -10,7 +10,7 @@
     "static/js/3.1642c738.chunk.js": "/My-React-Portfolio/static/js/3.1642c738.chunk.js",
     "static/js/3.1642c738.chunk.js.map": "/My-React-Portfolio/static/js/3.1642c738.chunk.js.map",
     "index.html": "/My-React-Portfolio/index.html",
-    "static/css/main.ff273605.chunk.css.map": "/My-React-Portfolio/static/css/main.ff273605.chunk.css.map",
+    "static/css/main.be440129.chunk.css.map": "/My-React-Portfolio/static/css/main.be440129.chunk.css.map",
     "static/js/2.b16898e0.chunk.js.LICENSE.txt": "/My-React-Portfolio/static/js/2.b16898e0.chunk.js.LICENSE.txt",
     "static/media/4thkind.3ae6cdea.png": "/My-React-Portfolio/static/media/4thkind.3ae6cdea.png",
     "static/media/4thkindgif.8c75fce2.gif": "/My-React-Portfolio/static/media/4thkindgif.8c75fce2.gif",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.03c2247c.js",
     "static/js/2.b16898e0.chunk.js",
-    "static/css/main.ff273605.chunk.css",
+    "static/css/main.be440129.chunk.css",
     "static/js/main.d15281f4.chunk.js"
   ]
 }
