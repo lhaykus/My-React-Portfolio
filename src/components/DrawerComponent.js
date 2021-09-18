@@ -25,6 +25,15 @@ const DrawerComponent = () => {
                 open={openDrawer}
                 >
                 <List>
+                <ListItem divider button >
+                        <ListItemText inset>
+                            <Typography>
+                                <Link href='/' style={{color:'#D231EB', fontSize:'30px'}}>
+                                    Home
+                                </Link>
+                            </Typography>
+                        </ListItemText>
+                        </ListItem>
                     <ListItem divider button  style={{backgroundColor:'black', color:'#D231EB'}} >
                         <ListItemText inset >
                             <Typography  variant='title'>
@@ -39,15 +48,6 @@ const DrawerComponent = () => {
                             <Typography>
                                 <Link href='#projects' style={{color:'#D231EB', fontSize:'30px'}}>
                                     Projects
-                                </Link>
-                            </Typography>
-                        </ListItemText>
-                        </ListItem>
-                        <ListItem divider button >
-                        <ListItemText inset>
-                            <Typography>
-                                <Link href='#skills' style={{color:'#D231EB', fontSize:'30px'}}>
-                                    Skills
                                 </Link>
                             </Typography>
                         </ListItemText>

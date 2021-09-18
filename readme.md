@@ -41,7 +41,7 @@ Quick Walkthrough
 
 ![walkthrough](src/assets/appwalkthro.gif)
 
-React Card Flip animation in projects section
+Project Section with React Card flip animation and working links to Github and Deployed App
 
 ![cardgif](src/assets/cardgif.gif)
 

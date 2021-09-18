@@ -100,7 +100,7 @@ const Projects = () => {
             <section id='projects'>
                 <Box component='div' style={{ color: 'white' }} className={classes.mainContainer}>
                 <Parallax bgImage={lines} strength={600} bgImageStyle={{ height: '800px', width: '2050px' }}>
-                    <div style={{ height: 500 }}>
+                    <div style={{ height: 300 }}>
                     </div>
                 </Parallax>
                     <Typography variant='h2' align='center' className={classes.projectTitle}>
@@ -335,8 +335,6 @@ const Projects = () => {
                                 </ReactCardFlip>
                             </Card>
                         </Grid>
-
-
                     </Grid>
                     <Parallax bgImage={lines} strength={600} bgImageStyle={{ height: '800px', width: '2050px' }}>
                     <div style={{ height: 500 }}>

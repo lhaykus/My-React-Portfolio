@@ -2,7 +2,7 @@ import React from 'react';
 //import { Route } from 'react-router-dom';
 import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
 //Used to get rid of the padding and gaps above the nav bar
-import { CssBaseline, Typography, IconButton} from '@material-ui/core';
+import { CssBaseline, Typography, IconButton, useMediaQuery, useTheme} from '@material-ui/core';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home.js';
@@ -10,21 +10,27 @@ import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import { Parallax } from 'react-parallax';
 import lines from './assets/lines.jpg';
-import Skills from './components/Skills';
 import ContactMe from './components/ContactMe';
 import Scroll from './components/Scroll';
 import Typed from 'react-typed';
-import KeyboardArrowLeftIcon from '@material-ui/icons/KeyboardArrowLeft';
-import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
 import CodeIcon from '@material-ui/icons/Code';
+import DrawerComponent from './components/DrawerComponent';
 
 
 
 function App() {
+  //Breakpoints for responsive navbar
+  const theme = useTheme();
+  const isMatch = useMediaQuery(theme.breakpoints.down('sm'));
   return (
+    
     <>
       <div>
         <nav>
+           {/* If screen goes down to 'sm' run the drawercomponent function which turns navbar into
+            hamburger menu icon OTHERWISE do the normal */}
+            {isMatch ? (<DrawerComponent />) : (
+              <>
         <Typography style={{ color: '#DD1FD1' }} variant='h4'>
                 <Typed strings={["Loryn Haykus" ]} typeSpeed={80} />
             </Typography>
@@ -50,6 +56,8 @@ function App() {
               </CodeIcon>
             </IconButton>
           </ul>
+              </>
+              )}
         </nav>
       </div>
 

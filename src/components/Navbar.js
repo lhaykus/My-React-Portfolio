@@ -26,9 +26,6 @@ const useStyles = makeStyles({
 });
 
 
-
-
-
 //Creating the navbar 
 const Navbar = () => {
     const classes = useStyles();

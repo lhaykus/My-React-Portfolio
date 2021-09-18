@@ -16,15 +16,19 @@ body, html, section, nav, br, .break {
 
 #nav {
   font-size: 200%;
+  font-weight: bold;
   display: flex;
   justify-content: space-between;
+ 
+  
  
   
 
 }
 
 #nav ul li link {
-  color: #15BDD6
+  color: #15BDD6;
+  
 }
 
 
