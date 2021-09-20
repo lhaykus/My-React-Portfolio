@@ -67,8 +67,8 @@ const AboutMe = () => {
                                     Attending the Coding Bootcamp at University of Denver,
                                     I have gained a multitude of both frontend and backend
                                     skills to create apps from scratch. My knowledge includes
-                                    <Typography style={{ color: '#DD1FD1' }} variant='h4'>HTML, CSS, Javascript, jQuery, Node.js, Express.js, mySQL
-                                        and sequelize. </Typography>Video games and computers have always played
+                                    <Typography style={{ color: '#DD1FD1' }} variant='h4'>HTML, CSS, Javascript, jQuery, Node.js, Express.js, mySQL,
+                                    MongoDB, Mongoose, React, and sequelize. </Typography>Video games and computers have always played
                                     a big part in my life so becoming a software developer is
                                     quite exciting for me. Other than coding and video games,
                                     I have a huge love for cars and racing, as well as nature
