@@ -35,7 +35,6 @@ const useStyles = makeStyles(theme => ({
         fontSize: '200%',
         color: 'white',
         textAlign: 'center',
-        textAlign: 'center',
         fontWeight: 'bold',
 
     },
