@@ -17,7 +17,7 @@ const useStyles = makeStyles(theme => ({
     subtitle: {
         color: '#DD1FD1',
         fontWeight: 'bold',
-        textAlign: 'right', 
+        textAlign: 'center', 
     },
     typedContainer: {
         zIndex: 1,
@@ -31,6 +31,13 @@ const useStyles = makeStyles(theme => ({
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+    },
+    name: {
+        display: 'flex',
+        justifyContent: 'flex-start',
+        color: '#BC25EC',
+        fontWeight:'bold',
+      
     }
 }));
 
@@ -43,11 +50,13 @@ const Home = () => {
             <Grid>
              <Parallax className={classes.parallax} bgImage={scifi} strength={200} bgImageStyle={{height:'1000px', width:'2050px'}} >
         <div> 
+            <Typography className={classes.name} variant='h3'>Loryn Haykus</Typography>
+            <br/>
             <Typography className={classes.title} variant='h1'>
-                <Typed strings={["Software Developer" ]} typeSpeed={80} />
+            Software Developer
             </Typography>
             {/* Using typed to create an animation on the text */}
-            <Typography className={classes.subtitle} variant='h2'>
+            <Typography className={classes.subtitle} variant='h3'>
                 <Typed strings={["Coder", "Nerd", "Gamer", "Passionate", 'Determined']}
                     typeSpeed={80}
                     backSpeed={60}

@@ -31,24 +31,21 @@ function App() {
             hamburger menu icon OTHERWISE do the normal */}
             {isMatch ? (<DrawerComponent />) : (
               <>
-        <Typography style={{ color: '#DD1FD1' }} variant='h4'>
-                <Typed strings={["Loryn Haykus" ]} typeSpeed={80} />
-            </Typography>
           <ul id='nav'>
             <IconButton>
               <CodeIcon style={{ color: '#25EDE8', fontSize: '200%' }}>
               </CodeIcon>
             </IconButton>
-            <li>
+            <li style={{padding:'10px'}}> 
               <Link style={{ color: '#15BDD6' }} to='/'>Home</Link>
             </li>
-            <li>
+            <li style={{padding:'10px'}}>
               <Link style={{ color: '#15BDD6' }} to='/aboutme'>About Me</Link>
             </li>
-            <li>
+            <li style={{padding:'10px'}}>
               <Link style={{ color: '#15BDD6' }} to='/projects'>Projects</Link>
             </li>
-            <li>
+            <li style={{padding:'10px'}}>
               <Link style={{ color: '#15BDD6' }} to='/contactme'>Contact Me</Link>
             </li>
             <IconButton>
