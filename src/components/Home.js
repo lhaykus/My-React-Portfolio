@@ -37,7 +37,7 @@ const useStyles = makeStyles(theme => ({
     name: {
         display: 'flex',
         justifyContent: 'center',
-        color: '#BC25EC',
+        color: '#DD1FD1',
         fontWeight:'bold',
       
     },

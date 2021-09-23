@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 import {
     Toolbar, AppBar, ListItem, ListItemText, IconButton, Avatar, Divider, List, Typography, Box, ListItemIcon,
@@ -10,26 +11,8 @@ import Typed from 'react-typed';
 import DrawerComponent from './DrawerComponent';
 import App from '../App';
 
-
-// CSS styling
-const useStyles = makeStyles({
-    listItem: {
-        fontWeight: 'bold',
-        fontSize: '200%',
-        color: 'white',
-    },
-    menuContainer: {
-        width: 250,
-        background: '#222',
-        height: '30rem'
-    }
-});
-
-
 //Creating the navbar 
 const Navbar = () => {
-    const classes = useStyles();
-
     //Breakpoints for responsive navbar
     const theme = useTheme();
     const isMatch = useMediaQuery(theme.breakpoints.down('sm'));
@@ -37,17 +20,17 @@ const Navbar = () => {
     return (
         <nav>
             {/* If screen goes down to 'sm' run the drawercomponent function which turns navbar into
-            hamburger menu icon OTHERWISE do the normal */}
+            hamburger menu icon OTHERWISE do the normal *//*
             {isMatch ? (<DrawerComponent />) : (
                 <>
-                    <List component='nav' className={classes.list}>
-                        <ListItem component='div' className={classes.listItem}>
+                    <List component='nav'>
+                        <ListItem component='div'>
                             <IconButton>
                                 <KeyboardArrowLeftIcon style={{ color: '#25EDE8', fontSize: '200%' }}>
                                 </KeyboardArrowLeftIcon>
                             </IconButton>
                             <ListItemText inset>
-                                <Typography className={classes.title} variant='h3'>
+                                <Typography variant='h3'>
                                     <Typed strings={["Loryn Haykus"]} typeSpeed={80} />
                                 </Typography>
                             </ListItemText>
@@ -86,3 +69,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+*/

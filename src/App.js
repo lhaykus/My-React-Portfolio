@@ -4,15 +4,11 @@ import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
 //Used to get rid of the padding and gaps above the nav bar
 import { CssBaseline, Typography, IconButton, useMediaQuery, useTheme} from '@material-ui/core';
 import './App.css';
-import Navbar from './components/Navbar';
 import Home from './components/Home.js';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
-import { Parallax } from 'react-parallax';
-import lines from './assets/lines.jpg';
 import ContactMe from './components/ContactMe';
 import Scroll from './components/Scroll';
-import Typed from 'react-typed';
 import CodeIcon from '@material-ui/icons/Code';
 import DrawerComponent from './components/DrawerComponent';
 
