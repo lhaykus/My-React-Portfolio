@@ -31,7 +31,8 @@ const useStyles = makeStyles(theme => ({
     },
     listContainer: {
         fontSize: '250%',
-        alignContent: 'center'
+        alignContent: 'center',
+    
     }
 
 }));
@@ -51,7 +52,7 @@ const Skills = () => {
                     <Typed strings={["Technical Skills"]} typeSpeed={80} />
                     <br /><br />
                 </Typography>
-                <Grid item xs={12} md={6}>
+                <Grid item xs={8} md={6}>
                     <div>
                         <List>
                             <ListItem className={classes.listItem}>

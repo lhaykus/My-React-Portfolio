@@ -37,16 +37,16 @@ function App() {
               </CodeIcon>
             </IconButton>
             <li style={{padding:'10px'}}> 
-              <Link style={{ color: '#15BDD6' }} to='/'>Home</Link>
+              <Link style={{ color: '#15BDD6', textDecoration:'none', }} to='/'>Home</Link>
             </li>
             <li style={{padding:'10px'}}>
-              <Link style={{ color: '#15BDD6' }} to='/aboutme'>About Me</Link>
+              <Link style={{ color: '#15BDD6', textDecoration:'none' }} to='/aboutme'>About Me</Link>
             </li>
             <li style={{padding:'10px'}}>
-              <Link style={{ color: '#15BDD6' }} to='/projects'>Projects</Link>
+              <Link style={{ color: '#15BDD6', textDecoration:'none' }} to='/projects'>Projects</Link>
             </li>
             <li style={{padding:'10px'}}>
-              <Link style={{ color: '#15BDD6' }} to='/contactme'>Contact Me</Link>
+              <Link style={{ color: '#15BDD6', textDecoration:'none' }} to='/contactme'>Contact Me</Link>
             </li>
             <IconButton>
               <CodeIcon style={{ color: '#25EDE8', fontSize: '200%' }}>

@@ -31,14 +31,16 @@ const useStyles = makeStyles(theme => ({
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        
+        
     },
     name: {
         display: 'flex',
-        justifyContent: 'flex-start',
+        justifyContent: 'center',
         color: '#BC25EC',
         fontWeight:'bold',
       
-    }
+    },
 }));
 
 const Home = () => {

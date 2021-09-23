@@ -20,12 +20,11 @@ body, html, section, nav, br, .break {
   font-weight: bold;
   display: flex;
   justify-content: space-evenly;
+  
  
 }
 
-#nav ul li link {
-  color: #15BDD6;
-}
+
 
 
 
