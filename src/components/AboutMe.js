@@ -92,12 +92,12 @@ const AboutMe = () => {
                     </Grid>
                 </Container>
                 <Parallax bgImage={lines} strength={600} bgImageStyle={{ height: '800px', width: '2050px' }}>
-                    <div style={{ height: 500 }}>
+                    <div style={{ height: 400 }}>
                     </div>
                 </Parallax>
                 <Skills />
                 <Parallax bgImage={lines} strength={600} bgImageStyle={{ height: '800px', width: '2050px' }}>
-                    <div style={{ height: 500 }}>
+                    <div style={{ height: 400 }}>
                     </div>
                 </Parallax>
                 <Footer />

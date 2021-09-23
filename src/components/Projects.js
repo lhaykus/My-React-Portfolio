@@ -336,7 +336,7 @@ const Projects = () => {
                         </Grid>
                     </Grid>
                     <Parallax bgImage={lines} strength={600} bgImageStyle={{ height: '800px', width: '2050px' }}>
-                    <div style={{ height: 500 }}>
+                    <div style={{ height: 300 }}>
                     </div>
                 </Parallax>
             <Footer />

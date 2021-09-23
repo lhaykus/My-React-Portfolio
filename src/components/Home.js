@@ -66,10 +66,8 @@ const Home = () => {
             </Typography>
         </div>
             </Parallax>
-            <Parallax bgImage={lines} strength={600} bgImageStyle={{ height: '800px', width: '2050px' }}>
-                    <div style={{ height: 500 }}>
-                    </div>
-                </Parallax>
+            
+                
             <Footer />
             </Grid>
         </Box>

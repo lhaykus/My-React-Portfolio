@@ -14,7 +14,7 @@ const useStyles = makeStyles(theme => ({
         textDecoration: 'none',
         color: '#1CC1E7',
         marginTop: '20px',
-        fontSize: '120%'
+        fontSize: '100%'
     }
 }));
 
@@ -24,13 +24,13 @@ const Footer = () => {
         <section container className={classes.footer}>
             <Container align='center' fontSize='large' margin='5px'>
                 <Link href='https://github.com/lhaykus' className={classes.link} target="_blank" fontSize='large'>
-                    <GitHubIcon style={{ color: '#1CC1E7', fontSize: '800%', padding: '20px' }} />
+                    <GitHubIcon style={{ color: '#1CC1E7', fontSize: '500%', padding: '20px' }} />
                 </Link>
                 <Link href='https://www.linkedin.com/in/loryn-haykus/' className={classes.link} target="_blank">
-                    <LinkedInIcon style={{ color: '#801BEB', fontSize: '800%', padding: '20px' }} />
+                    <LinkedInIcon style={{ color: '#801BEB', fontSize: '500%', padding: '20px' }} />
                 </Link>
                 <Link href={resume} className={classes.link} target="_blank">
-                    <FileCopyIcon style={{ color: "#D714EA", fontSize: '800%', padding: '20px' }} />
+                    <FileCopyIcon style={{ color: "#D714EA", fontSize: '500%', padding: '20px' }} />
                 </Link>
             </Container>
             <div>@
