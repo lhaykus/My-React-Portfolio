@@ -61,19 +61,19 @@ const AboutMe = () => {
                                 <Grid item> <Avatar className={classes.avatar} src={avatar} alt='Me' /></Grid>
                             </Grid>
                             <Grid item>
-                                <Typography style={{ color: 'white' }} variant='h4' className={classes.text}>Hello! I am Loryn Haykus and welcome to my portfolio
-                                    where I get to showcase all the work I have done on my
-                                    journey of becoming a full stack software developer!
-                                    Attending the Coding Bootcamp at University of Denver,
-                                    I have gained a multitude of both frontend and backend
-                                    skills to create apps from scratch. My knowledge includes
-                                    <Typography style={{ color: '#DD1FD1' }} variant='h4'>HTML, CSS, Javascript, jQuery, Node.js, Express.js, mySQL,
-                                    MongoDB, Mongoose, React, and sequelize. </Typography>Video games and computers have always played
-                                    a big part in my life so becoming a software developer is
-                                    quite exciting for me. Other than coding and video games,
-                                    I have a huge love for cars and racing, as well as nature
-                                    and animals. This portfolio is the just the beginning of my journey
-                                    and I am excited to add projects over the years! Linked below are links to my Github, Linkedin and my Resume, take a look!</Typography>
+                                <Typography style={{ color: 'white' }} variant='h4' className={classes.text}>Hello! I am Loryn Haykus, a wildly motivated full stack developer who loves everything gaming,
+                                    fantasy and technology. Being enrolled in the DU Coding
+                                    Bootcamp in Denver, Colorado I have gained skills to bring
+                                    data to life and build web pages and apps from scratch. I
+                                    have gained skills in front-end and back-end development
+                                    including  <span style={{ color: '#DD1FD1' }} variant='h4'> HTML, CSS, Javascript, Node.js, MySQL,
+                                        NoSQL, MongoDB, Mongoose, React </span> and look forward to
+                                    learning even more! My ability to learn quickly, my love for
+                                    overcoming challenges and the satisfaction of bringing
+                                    numbers and data to life is what drives me! 
+                                    <br />
+                                    <Typography style={{ color: '#1CC1E7' }} variant='h4'> Linked below are links to my Github, Linkedin and my Resume, take a look!</Typography>
+                                    </Typography>
                                 <br /> <br />
                                 <Container align='center' fontSize='large' margin='5px'>
                                     <Link href='https://github.com/lhaykus' className={classes.link} target="_blank" fontSize='large'>
