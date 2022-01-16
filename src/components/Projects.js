@@ -6,14 +6,13 @@ import { makeStyles } from '@material-ui/core/styles';
 import fourthKind from '../assets/4thkind.png';
 import weather from '../assets/weather.png';
 import workout from '../assets/workout.png';
-import quiz from '../assets/quiz.png';
+import websitepic from '../assets/bellljaru.png';
 import makemyday from '../assets/makemyday.png';
 import shark from '../assets/shark.png';
 import ReactCardFlip from 'react-card-flip';
 import fourthKindGif from '../assets/4thkindgif.gif';
 import weatherGif from '../assets/weatherdashgif.gif';
 import workoutGif from '../assets/workoutgif.gif';
-import quizGif from '../assets/quizgif.gif';
 import dayGif from '../assets/daygif.gif';
 import sharkGif from '../assets/sharkgif.gif';
 import budget from '../assets/budgetTracker.png';
@@ -21,6 +20,7 @@ import budgetGif from '../assets/budgetGif.gif';
 import { Parallax } from 'react-parallax';
 import lines from '../assets/lines.jpg';
 import Footer from '../components/Footer';
+import website from '../assets/websitegif.gif';
 
 
 //CSS Styling
@@ -268,17 +268,17 @@ const Projects = () => {
                                     <div>
                                         <CardActionArea>
                                             <Button className={classes.frontFlipButton} onClick={handleClick}>Click for more info!</Button>
-                                            <Typography gutterBottom variant='h4' className={classes.cardTitle}>🎮 Video Game and Movie Quiz 🎮 </Typography>
+                                            <Typography gutterBottom variant='h4' className={classes.cardTitle}>Belle L'JaRu </Typography>
                                             <CardMedia className={classes.frontImage} component='img' alt='project1' height='500px'
-                                                image={quiz} />
+                                                image={websitepic} />
                                             <CardContent>
 
                                                 <Typography style={{ color: '#2AC1BD', fontSize: '120%', textAlign: 'center', fontWeight: 'bold' }} variant='h4'>
-                                                    |HTML| |CSS| |Javascript|</Typography>
+                                                    |MongoDB| |Express| |React| |Node.js| |Stripe| </Typography>
                                                 <CardActions>
                                                     <h3 style={{ color: 'white' }}>Check out the App!</h3>
-                                                    <Button className={classes.buttons} href='https://github.com/lhaykus/video-game-quiz' target="_blank" size='small' >Github</Button>
-                                                    <Button className={classes.buttons} href='https://lhaykus.github.io/video-game-quiz/' target="_blank" size='small' >Deployed App</Button>
+                                                    <Button className={classes.buttons} href='https://github.com/lhaykus/belle-ljru' target="_blank" size='small' >Github</Button>
+                                                    <Button className={classes.buttons} href='https://desolate-hamlet-45640.herokuapp.com/' target="_blank" size='small' >Deployed App</Button>
                                                 </CardActions>
                                             </CardContent>
                                         </CardActionArea>
@@ -286,13 +286,14 @@ const Projects = () => {
                                     {/* BACK SIDE OF CARD */}
                                     <div>
                                         <Button className={classes.frontFlipButton} onClick={handleClick}>Go back</Button>
-                                        <Typography variant='body2' color="textSecondary" component='p' className={classes.text}>A fun quiz to test your video game/movie knowledge using <Typography style={{ color: '#DD1FD1', fontSize: '120%' }} variant='h4'> HTML, CSS, Local Storage
-                                            and Javascript.</Typography>This app keeps score of what answers the user chooses, deductes 10 seconds off the timer for every wrong answer chosen and gives the ability to put your name and score into the database to keep track of high scores!
+                                        <Typography variant='body2' color="textSecondary" component='p' className={classes.text}>A <Typography style={{ color: '#DD1FD1', fontSize: '120%' }} variant='h4'>MERN </Typography> full-stack application allows users to shop skincare products,
+                                         create personal accounts, save purchase history and buy products using Stripe!
+                                         A personalized mutliple choice quiz allows users to find out what skin type they may have and gives a recommended routine with products for users to follow
                                         </Typography>
                                         <br /> <br />
-                                        <img className={classes.backImage} src={quizGif} alt='Video game quiz' />
-                                        <Button className={classes.buttons} href='https://github.com/lhaykus/video-game-quiz' target="_blank" size='small' >Github</Button>
-                                        <Button className={classes.buttons} href='https://lhaykus.github.io/video-game-quiz/' target="_blank" size='small' >Deployed App</Button>
+                                        <img className={classes.backImage} src={website} alt='Skin care website' />
+                                        <Button className={classes.buttons} href='https://github.com/lhaykus/belle-ljru' target="_blank" size='small' >Github</Button>
+                                        <Button className={classes.buttons} href='https://desolate-hamlet-45640.herokuapp.com/' target="_blank" size='small' >Deployed App</Button>
                                     </div>
                                 </ReactCardFlip>
                             </Card>
