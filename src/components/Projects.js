@@ -288,7 +288,7 @@ const Projects = () => {
                                         <Button className={classes.frontFlipButton} onClick={handleClick}>Go back</Button>
                                         <Typography variant='body2' color="textSecondary" component='p' className={classes.text}>A <Typography style={{ color: '#DD1FD1', fontSize: '120%' }} variant='h4'>MERN </Typography> full-stack application allows users to shop skincare products,
                                          create personal accounts, save purchase history and buy products using Stripe!
-                                         A personalized mutliple choice quiz allows users to find out what skin type they may have and gives a recommended routine with products for users to follow
+                                         A personalized multiple choice quiz allows users to find out what skin type they may have and gives a recommended routine with products for users to follow
                                         </Typography>
                                         <br /> <br />
                                         <img className={classes.backImage} src={website} alt='Skin care website' />
