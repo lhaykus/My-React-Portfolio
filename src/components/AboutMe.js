@@ -3,7 +3,7 @@ import { Link } from '@material-ui/core';
 import { Avatar, Typography, Box, Container, Grid } from '@material-ui/core';
 import { makeStyles } from '@material-ui/styles';
 import Typed from 'react-typed';
-import avatar from '../assets/me2.jpg';
+import avatar from '../assets/profilepic.jpg';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { EmailOutlined } from '@material-ui/icons';
@@ -70,8 +70,13 @@ const AboutMe = () => {
                                         NoSQL, MongoDB, Mongoose, React </span> and look forward to
                                     learning even more! My ability to learn quickly, my love for
                                     overcoming challenges and the satisfaction of bringing
-                                    numbers and data to life is what drives me! 
+                                    numbers and data to life is what drives me!
+                                    <br /> <br />While continuing my 
+                                    knowledge in web development I have been bitten by the game development bug and am pursuing education
+                                    in <span style={{ color: '#DD1FD1' }} variant='h4'> C++ and Unreal Engine, Python and Pygame </span> and look forward to extending my knowledge to C# and Unity in the 
+                                    future!
                                     <br />
+                                    <br /><br /><br />
                                     <Typography style={{ color: '#1CC1E7' }} variant='h4'> Linked below are links to my Github, Linkedin and my Resume, take a look!</Typography>
                                     </Typography>
                                 <br /> <br />

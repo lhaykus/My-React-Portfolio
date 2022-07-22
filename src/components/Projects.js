@@ -150,13 +150,16 @@ const Projects = () => {
                                 </ReactCardFlip>
                             </Card>
                         </Grid>
+                         {/*}  
                         {/*Card for second project*/}
+                         {/*}  
                         <Grid item xs={12} sm={8} md={6}>
                             <Card className={classes.cardContainer}>
                                 <ReactCardFlip className={classes.cardFlip} isFlipped={isFlipped} flipDirection='vertical'>
                                     {/* FRONT SIDE OF CARD */}
+                                     {/*}  
                                     <div>
-                                        <CardActionArea>
+                                     <CardActionArea>
                                             <Button className={classes.frontFlipButton} onClick={handleClick}>Click for more info!</Button>
                                             <Typography gutterBottom variant='h4' className={classes.cardTitle}> Online/Offline Budget Tracker</Typography>
                                             <CardMedia className={classes.frontImage} component='img' alt='project1' height='500px'
@@ -170,9 +173,10 @@ const Projects = () => {
                                                     <Button className={classes.buttons} href='https://glacial-caverns-37746.herokuapp.com/' target="_blank" size='small' >Deployed App</Button>
                                                 </CardActions>
                                             </CardContent>
-                                        </CardActionArea>
+   </CardActionArea> {*/}       {/*}
                                     </div>
                                     {/* BACK SIDE OF CARD */}
+                                     {/*}
                                     <div>
                                         <Button className={classes.frontFlipButton} onClick={handleClick}>Go back</Button>
                                         <Typography variant='body2' color="textSecondary" component='p' className={classes.text}>This simple app allows users to keep track of money transactions by adding and subtracting funds,
