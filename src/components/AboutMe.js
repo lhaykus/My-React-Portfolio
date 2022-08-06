@@ -31,8 +31,8 @@ const useStyles = makeStyles(theme => ({
         display: 'flex',
         alignItems: 'flex-start',
         margin: '0.5rem auto',
-        width: '30rem',
-        height: '30rem',
+        width: '20rem',
+        height: '20rem',
     },
     link: {
         alignItems: 'center',
@@ -59,24 +59,27 @@ const AboutMe = () => {
                         <Grid item xs>
                             <Grid container direction='flex-start'>
                                 <Grid item> <Avatar className={classes.avatar} src={avatar} alt='Me' /></Grid>
+                               
                             </Grid>
+                            <br /><br /><br />
                             <Grid item>
-                                <Typography style={{ color: 'white' }} variant='h4' className={classes.text}>Hello! I am Loryn Haykus, a wildly motivated full stack developer who loves everything gaming,
-                                    fantasy and technology. Being enrolled in the DU Coding
-                                    Bootcamp in Denver, Colorado I have gained skills to bring
-                                    data to life and build web pages and apps from scratch. I
-                                    have gained skills in front-end and back-end development
-                                    including  <span style={{ color: '#DD1FD1' }} variant='h4'> HTML, CSS, Javascript, Node.js, MySQL,
-                                        NoSQL, MongoDB, Mongoose, React </span> and look forward to
-                                    learning even more! My ability to learn quickly, my love for
-                                    overcoming challenges and the satisfaction of bringing
-                                    numbers and data to life is what drives me!
-                                    <br /> <br />While continuing my 
-                                    knowledge in web development I have been bitten by the game development bug and am pursuing education
-                                    in <span style={{ color: '#DD1FD1' }} variant='h4'> C++ and Unreal Engine, Python and Pygame </span> and look forward to extending my knowledge to C# and Unity in the 
-                                    future!
-                                    <br />
-                                    <br /><br /><br />
+                                    <Typography style={{ color: 'white' }} variant='h4' className={classes.text}>A wildly motivated Junior Full-Stack Software Developer specialized in both back and front-end development. 
+                                    Starting her journey into the tech world back in 2021, she took a leap and joined the University of Denver Coding Bootcamp and took on the challenge of learning to become a full stack developer 
+                                    in 6 months. The bootcamp gave her the knowledge in languages such as <span style={{ color: '#DD1FD1' }} variant='h4'> Javascript, mySQL, noSQL, jQuery,</span> and her 
+                                    favorite,<span style={{ color: '#DD1FD1' }} variant='h4'> MERN stack</span>.
+                                    <br /><br />
+                                     While continuing her education in the world of web development, 
+                                    she has been bitten by the game development bug and is currently pursing education in <span style={{ color: '#DD1FD1' }} variant='h4'> C++ and Unreal Engine, Python and Pygame,</span> and is looking forward 
+                                    to learning <span style={{ color: '#DD1FD1' }} variant='h4'>C# and Unity</span> as well!
+                                    <br /><br />
+                                    Along with web and game development, she is also greatly passionate about the automotive and motorsports industry, using her free time studying engines, 
+                                    going to races and saving up to one day have a racecar of her own!
+                                    <br /><br />
+                                    She has a desire to learn, the ability to pick up new skills and apply them in a timely manner! Skills are of course a priority in employment; 
+                                    however this developer shows that the desire and ability to adapt and learn new things quickly and efficiently might be the most useful skill one 
+                                    can have in this ever changing world of technology. So here is to learning more languages, improving on already acquired knowledge and building 
+                                    awesome and world-changing applications!
+                                    <br /><br />
                                     <Typography style={{ color: '#1CC1E7' }} variant='h4'> Linked below are links to my Github, Linkedin and my Resume, take a look!</Typography>
                                     </Typography>
                                 <br /> <br />
